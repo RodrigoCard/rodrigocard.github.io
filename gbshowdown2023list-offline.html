@@ -4,7 +4,7 @@
 <head>
   <title>Game Boy Showdown 2023</title>
   <style>
-    *{margin:0;padding:0}.footer,.toolbar{background-color:rgba(116,116,116,.2);padding:10px}body{background-color:#2d3136;color:#737384;font-family:Arial,sans-serif}h1{font-size:40px;color:#5c985c}.header{margin:20px 20px 0 10px}.game-entry .game-thumbnail img,.header p{margin-bottom:10px}.toolbar{cursor:default;user-select:none}.toolbar button{font-weight:700;color:#2d3136;padding:5px 10px;cursor:pointer}.toolbar :focus{outline:rgba(30,100,255,1) solid 2px;-moz-outline-radius:2px;border-radius:2px}.filter{display:inline}.filter label[for=filter-played]{font-weight:700;font-size:20px;margin-left:10px;border-left:1px solid #666;padding-left:10px}.filter input,.filter select{margin-left:5px}.filter>*{display:inline-block}.filter .matches{display:none;font-style:bold;font-size:120%}#playcount,#totalentries{font-weight:700;font-size:24px}.footer{font-size:10px;color:#999;margin:20px}.footer a,.header a{color:#1e64ff}.footer a:visited,.header a:visited{color:#e37de3}.container{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:20px;padding:20px}.game-entry{display:flex;flex-direction:column;align-items:center;background-color:#d3d7cf;border-radius:10px 10px 40px;padding:20px;transition:transform .2s;box-shadow:0 4px 8px 0 rgba(0,0,0,.2)}.game-link,.game-link:hover a{display:inline-block;height:40px}.game-entry a{color:#494786;text-decoration:none}.game-entry a:hover{color:#0095e5;text-decoration:underline}.game-entry a:visited{color:#7e00a8}.game-entry::not(.game-link) a:active,.game-entry::not(.game-link) a:focus{color:green}.game-entry:hover{transform:scale(1.05)}.game-link::before,.game-link:hover a{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.game-entry img{max-width:100%;border-radius:5px 5px 20px}.game-entry h2{font-size:20px}.game-entry h2>a{padding:15px 0;margin:0}.game-entry .game-info{width:100%;text-align:right;line-height:1.5em}.game-entry .game-title,.game-link{text-align:center}.game-entry .game-authors{font-size:14px;text-align:center;margin-bottom:10px}.game-link{position:relative;width:40px;border-radius:50%;background-color:#9a2257;overflow:hidden}.game-link::before{content:"";width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:12px solid #fff}.game-link:hover::before{display:none}.game-link a,.game-link a:active,.game-link a:visited{color:rgba(30,0,255,0);line-height:40px}.game-link:hover{width:80px;border-radius:20px}.game-link:hover a{color:#fff;font-size:14px;text-decoration:none;width:80px}.game-link:active{border:2px solid #000;margin:-2px}.check-list{float:left}
+*{margin:0;padding:0}.footer,.toolbar{background-color:rgba(116,116,116,.2);padding:10px}body{background-color:#2d3136;color:#737384;font-family:Arial,sans-serif}h1{font-size:40px;color:#5c985c}.header{margin:20px 20px 0 10px}.game-entry .game-thumbnail img,.header p{margin-bottom:10px}.toolbar{cursor:default;user-select:none}.toolbar button{font-weight:700;color:#2d3136;padding:5px 10px;cursor:pointer}.toolbar :focus{outline:rgba(30,100,255,1) solid 2px;-moz-outline-radius:2px;border-radius:2px}.filter{display:inline}.filter label[for=filter-played]{font-weight:700;font-size:20px;margin-left:10px;border-left:1px solid #666;padding-left:10px}.filter input,.filter select{margin-left:5px}.filter>*{display:inline-block}.filter .matches{display:none;font-style:bold;font-size:120%}#playcount,#totalentries{font-weight:700;font-size:24px}#name-filter-clear-button,.game-link:hover::before{display:none}.footer{font-size:10px;color:#999;margin:20px}.footer a,.header a{color:#1e64ff}.footer a:visited,.header a:visited{color:#e37de3}.container{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:20px;padding:20px}.game-entry{display:flex;flex-direction:column;align-items:center;background-color:#d3d7cf;border-radius:10px 10px 40px;padding:20px;transition:transform .2s;box-shadow:0 4px 8px 0 rgba(0,0,0,.2)}.game-link,.game-link:hover a{display:inline-block;height:40px}.game-entry a{color:#494786;text-decoration:none}.game-entry a:hover{color:#0095e5;text-decoration:underline}.game-entry a:visited{color:#7e00a8}.game-entry::not(.game-link) a:active,.game-entry::not(.game-link) a:focus{color:green}.game-entry:hover{transform:scale(1.05)}.game-link::before,.game-link:hover a{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.game-entry img{max-width:100%;border-radius:5px 5px 20px}.game-entry h2{font-size:20px}.game-entry h2>a{padding:15px 0;margin:0}.game-entry .game-info{width:100%;text-align:right;line-height:1.5em}.game-entry .game-title,.game-link{text-align:center}.game-entry .game-authors{font-size:14px;text-align:center;margin-bottom:10px}.game-link{position:relative;width:40px;border-radius:50%;background-color:#9a2257;overflow:hidden}.game-link::before{content:"";width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:12px solid #fff}.game-link a,.game-link a:active,.game-link a:visited{color:rgba(30,0,255,0);line-height:40px}.game-link:hover{width:80px;border-radius:20px}.game-link:hover a{color:#fff;font-size:14px;text-decoration:none;width:80px}.game-link:active{border:2px solid #000;margin:-2px}.check-list{float:left}
   </style>
 </head>
 
@@ -28,6 +28,7 @@
         <input  id="favorites-toggle" name="favorites-toggle" type="checkbox">
         <label for="favorites-toggle">favorites</label>
         <input type="text" id="name-filter" placeholder="Search by name">
+        <button id="name-filter-clear-button">clear</button>
         <span id="matches" class="matches"></span>
       </span>
     </div>
@@ -1380,7 +1381,7 @@
 </div>
 
   </div>
-  <div class="footer">generated at 2023/05/24 00:54:22 by <a href="https://rodrigocard.itch.io/">Rodrigo Rocha</a>
+  <div class="footer">generated at 2023/05/24 17:47:30 by <a href="https://rodrigocard.itch.io/">Rodrigo Rocha</a>
   </div>
 
   <script> /* save all checkboxes locally */
@@ -1392,129 +1393,130 @@
     var textbox = document.getElementById('name-filter');
     var favoriteCheckBox = document.getElementById('favorites-toggle');
     var matchesElement = document.getElementById('matches');
+    var clearTextElement = document.getElementById('name-filter-clear-button');
 
     // Save the state of checkboxes to local storage
     function saveCheckboxState() {
-      checkboxes.forEach(function (checkbox) {
-        localStorage.setItem(checkbox.id, checkbox.checked);
-      });
+        checkboxes.forEach(function (checkbox) {
+            localStorage.setItem(checkbox.id, checkbox.checked);
+        });
     }
 
     // Load the state of checkboxes from local storage
     function loadCheckboxState() {
-      checkboxes.forEach(function (checkbox) {
-        var checked = localStorage.getItem(checkbox.id) === 'true';
-        checkbox.checked = checked;
-      });
+        checkboxes.forEach(function (checkbox) {
+            var checked = localStorage.getItem(checkbox.id) === 'true';
+            checkbox.checked = checked;
+        });
 
-      updatePlayCount();
+        updatePlayCount();
     }
 
     // Update the play count span with the number of checked checkboxes
     function updatePlayCount() {
-      var checkedCount = document.querySelectorAll('input[type="checkbox"]:checked.played').length;
-      playCountSpan.textContent = checkedCount;
+        var checkedCount = document.querySelectorAll('input[type="checkbox"]:checked.played').length;
+        playCountSpan.textContent = checkedCount;
     }
 
     // Combined filter function
     function applyFilters() {
-      var filterValue = dropdown.value;
-      var filterText = textbox.value.toLowerCase();
-      var filterFavorites = favoriteCheckBox.checked;
+        var filterValue = dropdown.value;
+        var filterText = textbox.value.toLowerCase();
+        var filterFavorites = favoriteCheckBox.checked;
 
-      gameEntryElements.forEach(function (gameEntry) {
-        var checkboxPlayed = gameEntry.querySelector('input[type="checkbox"].played');
-        var checkboxFavorite = gameEntry.querySelector('input[type="checkbox"].favorite');
-        var title = gameEntry.querySelector('.game-title').textContent.toLowerCase();
+        gameEntryElements.forEach(function (gameEntry) {
+            var checkboxPlayed = gameEntry.querySelector('input[type="checkbox"].played');
+            var checkboxFavorite = gameEntry.querySelector('input[type="checkbox"].favorite');
+            var title = gameEntry.querySelector('.game-title').textContent.toLowerCase();
 
-        var checkboxPlayedCondition = (filterValue === 'all') ||
-          (filterValue === 'not-played' && !checkboxPlayed.checked) ||
-          (filterValue === 'played' && checkboxPlayed.checked);
+            var checkboxPlayedCondition = (filterValue === 'all') ||
+                (filterValue === 'not-played' && !checkboxPlayed.checked) ||
+                (filterValue === 'played' && checkboxPlayed.checked);
 
-        var checkboxFavoriteCondition = (filterFavorites && checkboxFavorite.checked) ||  (!filterFavorites);
+            var checkboxFavoriteCondition = (filterFavorites && checkboxFavorite.checked) || (!filterFavorites);
 
-        var textCondition = title.includes(filterText);
+            var textCondition = title.includes(filterText);
 
-        gameEntry.style.display = (checkboxPlayedCondition && checkboxFavoriteCondition && textCondition) ? '' : 'none';
-      });
+            gameEntry.style.display = (checkboxPlayedCondition && checkboxFavoriteCondition && textCondition) ? '' : 'none';
+        });
 
-      updateMatches();
+        var clearButton = document.getElementById("name-filter-clear-button")
+        if (filterText == null || filterText == "") {
+            clearButton.style.display = 'none';
+        } else {
+            clearButton.style.display = 'inline';
+        }
+
+        updateMatches();
     }
 
     // Calculate and update matches
     function updateMatches() {
-      var matches = 0;
-      gameEntryElements.forEach(function (gameEntry) {
-        var isVisible = gameEntry.style.display != 'none';
-        if (isVisible) {
-          matches++;
-        }
-      });
+        var matches = 0;
+        gameEntryElements.forEach(function (gameEntry) {
+            var isVisible = gameEntry.style.display != 'none';
+            if (isVisible) {
+                matches++;
+            }
+        });
 
-      matchesElement.textContent = "(" + matches + " matches meeting the criteria)";
-      matchesElement.style.display = (dropdown.value == 'all' && textbox.value == '') ? 'none' : 'inline';
+        matchesElement.textContent = "(" + matches + " matches meeting the criteria)";
+        matchesElement.style.display = (dropdown.value == 'all' && textbox.value == '') ? 'none' : 'inline';
     }
 
     // Get the shuffle button
     var shuffleButton = document.getElementById('shuffle-button');
 
     // Function to shuffle an array
-    function shuffle(array) {
-      var currentIndex = array.length, temporaryValue, randomIndex;
+    function shuffleArray(array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
 
-      // While there remain elements to shuffle...
-      while (0 !== currentIndex) {
-
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-
-        // And swap it with the current element.
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
-      }
-
-      return array;
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+        return array;
     }
 
     // Function to shuffle the game entries
     function shuffleGames() {
-      // Convert gameEntryElements NodeList to an array
-      var gameEntriesArray = Array.from(gameEntryElements);
-
-      // Shuffle the array
-      shuffle(gameEntriesArray);
-
-      // Remove the current game entries from the parent element
-      gameEntriesArray.forEach(function (gameEntry) {
-        gameEntry.parentNode.removeChild(gameEntry);
-      });
-
-      // Append the shuffled game entries back to the parent element
-      var gameList = document.getElementById('game-list');  // Replace 'game-list' with the id of your parent element
-      gameEntriesArray.forEach(function (gameEntry) {
-        gameList.appendChild(gameEntry);
-      });
-
-      // Re-apply the filters
-      applyFilters();
+        // Convert gameEntryElements NodeList to an array
+        var gameEntriesArray = Array.from(gameEntryElements);
+        // Shuffle the array
+        shuffleArray(gameEntriesArray);
+        // Remove the current game entries from the parent element
+        gameEntriesArray.forEach(function (gameEntry) {
+            gameEntry.parentNode.removeChild(gameEntry);
+        });
+        // Append the shuffled game entries back to the parent element
+        var gameList = document.getElementById('game-list');  // Replace 'game-list' with the id of your parent element
+        gameEntriesArray.forEach(function (gameEntry) {
+            gameList.appendChild(gameEntry);
+        });
+        // Re-apply the filters
+        applyFilters();
     }
 
     // Add event listeners to save and load checkbox state
     checkboxes.forEach(function (checkbox) {
-      checkbox.addEventListener('change', function () {
-        saveCheckboxState();
-        updatePlayCount();
-        applyFilters();
-      });
+        checkbox.addEventListener('change', function () {
+            saveCheckboxState();
+            updatePlayCount();
+            applyFilters();
+        });
     });
 
-    // Add event listener to filter by played status and name
+    // Add event listeners
     dropdown.addEventListener('change', applyFilters);
     textbox.addEventListener('input', applyFilters);
-    // Add event listener to shuffle button
     shuffleButton.addEventListener('click', shuffleGames);
+    clearTextElement.addEventListener('click', function () { textbox.value = ''; applyFilters() });
 
     // Load the checkbox state and matches count on page load
     window.addEventListener('load', function () {
