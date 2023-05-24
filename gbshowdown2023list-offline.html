@@ -2,29 +2,31 @@
 <html>
 
 <head>
-  <title>Game Boy Showdown 2023 Playlist</title>
-  <style type="text/css">
-    *{margin:0;padding:0}.footer,.misc-info{background-color:rgba(116,116,116,.2);padding:10px}body{background-color:#2d3136;color:#737384;font-family:Arial,sans-serif}h1{font-size:40px;color:#5c985c}.header{margin:20px 20px 0 10px}.game-entry .game-thumbnail img,.header p{margin-bottom:10px}.filter{display:inline}.filter>*{display:inline-block}.filter .matches{display:none;font-style:bold;font-size:120%}#playcount,#totalentries{font-weight:700;font-size:24px}.footer{font-size:10px;color:#999;margin:20px}.footer a,.header a{color:#1e64ff}.footer a:visited,.header a:visited{color:#e37de3}.container{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:20px;padding:20px}.game-entry{display:flex;flex-direction:column;align-items:center;background-color:#d3d7cf;border-radius:10px 10px 40px;padding:20px;transition:transform .2s;box-shadow:0 4px 8px 0 rgba(0,0,0,.2)}.game-link,.game-link:hover a{display:inline-block;height:40px}.game-entry a{color:#494786;text-decoration:none}.game-entry a:hover{color:#0095e5;text-decoration:underline}.game-entry a:visited{color:#7e00a8}.game-entry::not(.game-link) a:active,.game-entry::not(.game-link) a:focus{color:green}.game-entry:hover{transform:scale(1.05)}.game-link::before,.game-link:hover a{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.game-entry img{max-width:100%;border-radius:5px 5px 20px}.game-entry h2{font-size:20px}.game-entry h2>a{padding:15px 0;margin:0}.game-entry .game-info{width:100%;text-align:right;line-height:1.5em}.game-entry .game-title,.game-link{text-align:center}.game-entry .game-authors{font-size:14px;text-align:center;margin-bottom:10px}.game-link{position:relative;width:40px;border-radius:50%;background-color:#9a2257;overflow:hidden}.game-link::before{content:"";width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:12px solid #fff}.game-link:hover::before{display:none}.game-link a,.game-link a:active,.game-link a:visited{color:rgba(30,0,255,0);line-height:40px}.game-link:hover{width:80px;border-radius:20px}.game-link:hover a{color:#fff;font-size:14px;text-decoration:none;width:80px}.game-link:active{border:2px solid #000;margin:-2px}.check-list{float:left}
+  <title>Game Boy Showdown 2023</title>
+  <style>
+    .footer,.toolbar{background-color:rgba(116,116,116,.2);padding:10px}*{margin:0;padding:0}body{background-color:#2d3136;color:#737384;font-family:Arial,sans-serif}h1{font-size:40px;color:#5c985c}.header{margin:20px 20px 0 10px}.game-entry .game-thumbnail img,.header p{margin-bottom:10px}.toolbar{cursor:default;user-select:none}.toolbar button{font-weight:700;color:#2d3136;padding:5px 10px;cursor:pointer}.toolbar :focus{outline:rgba(30,100,255,1) solid 2px;-moz-outline-radius:2px;border-radius:2px}.filter{display:inline}.filter label[for=filter-played]{font-weight:700;font-size:20px;margin-left:10px;border-left:1px solid #666;padding-left:10px}.filter input,.filter select{margin-left:5px}.filter>*{display:inline-block}.filter .matches{display:none;font-style:bold;font-size:120%}#playcount,#totalentries{font-weight:700;font-size:24px}.footer{font-size:10px;color:#999;margin:20px}.footer a,.header a{color:#1e64ff}.footer a:visited,.header a:visited{color:#e37de3}.container{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:20px;padding:20px}.game-entry{display:flex;flex-direction:column;align-items:center;background-color:#d3d7cf;border-radius:10px 10px 40px;padding:20px;transition:transform .2s;box-shadow:0 4px 8px 0 rgba(0,0,0,.2)}.game-link,.game-link:hover a{display:inline-block;height:40px}.game-entry a{color:#494786;text-decoration:none}.game-entry a:hover{color:#0095e5;text-decoration:underline}.game-entry a:visited{color:#7e00a8}.game-entry::not(.game-link) a:active,.game-entry::not(.game-link) a:focus{color:green}.game-entry:hover{transform:scale(1.05)}.game-link::before,.game-link:hover a{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.game-entry img{max-width:100%;border-radius:5px 5px 20px}.game-entry h2{font-size:20px}.game-entry h2>a{padding:15px 0;margin:0}.game-entry .game-info{width:100%;text-align:right;line-height:1.5em}.game-entry .game-title,.game-link{text-align:center}.game-entry .game-authors{font-size:14px;text-align:center;margin-bottom:10px}.game-link{position:relative;width:40px;border-radius:50%;background-color:#9a2257;overflow:hidden}.game-link::before{content:"";width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:12px solid #fff}.game-link:hover::before{display:none}.game-link a,.game-link a:active,.game-link a:visited{color:rgba(30,0,255,0);line-height:40px}.game-link:hover{width:80px;border-radius:20px}.game-link:hover a{color:#fff;font-size:14px;text-decoration:none;width:80px}.game-link:active{border:2px solid #000;margin:-2px}.check-list{float:left}
   </style>
 </head>
 
 <body>
   <div class="header">
     <h1>Game Boy Showdown 2023</h1>
-    <p>playlist of JAM entries - for personal tracking - <a href="https://itch.io/jam/game-boy-showdown-2023/entries">go
-        to jam page</a></p>
-    <div class="misc-info">
-      <span id="totalentries">84</span> entries (<span id="playcount">0</span>/84 marked as 'played')
+    <p>playlist of JAM entries - for personal tracking - <a href="https://itch.io/jam/game-boy-showdown-2023/entries">go to jam page</a></p>
+    <div class="toolbar">
+      <span id="totalentries">84</span> entries (<span
+        id="playcount">0</span>/84 played)
       <span class="buttons">
-        <button id="shuffle-button">Shuffle List</button>
+        <button id="shuffle-button"> shuffle list </button>
       </span>
       <span class="filter">
-        <label for="filter">Filter:</label>
-        <select id="filter-played" name="filter">
+        <label for="filter-played">Filters:</label>
+        <select id="filter-played" name="filter-played">
           <option value="all">Everything</option>
           <option value="not-played">Not-Played</option>
           <option value="played">Played</option>
         </select>
+        <input  id="favorites-toggle" name="favorites-toggle" type="checkbox">
+        <label for="favorites-toggle">favorites</label>
         <input type="text" id="name-filter" placeholder="Search by name">
         <span id="matches" class="matches"></span>
       </span>
@@ -33,1385 +35,1352 @@
   </div>
   <div class="container" id="game-list">
     <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075137"><img
-            src="https://img.itch.zone/aW1nLzEyMjA3NjYxLnBuZw==/300x240%23c/e%2Fvq3A.png"
-            alt="Friendship Never Dies"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075137">Friendship
-            Never Dies</a></h3>
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075137"><img src="https://img.itch.zone/aW1nLzEyMjA3NjYxLnBuZw==/300x240%23c/e%2Fvq3A.png" alt="Friendship Never Dies"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075137">Friendship Never Dies</a></h3>
         <div class="game-authors">by <a href="https://johndo21.itch.io">Johndo21</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2075137" name="game2075137">
-          <label for="game2075137">played</label>
+            <input  id="game2075137" name="game2075137" type="checkbox" class="played">
+            <label for="game2075137">played</label>
+            <input  id="fav2075137" name="fav2075137" type="checkbox" class="favorite">
+            <label for="fav2075137">favorite</label>
         </div>
         <div class="game-link"><a href="https://johndo21.itch.io/fnd">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078796"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4MjIyLmpwZw==/300x240%23c/JHH0O4.jpg" alt="A walk in snow"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078796">A walk in
-            snow</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078796"><img src="https://img.itch.zone/aW1nLzEyMjI4MjIyLmpwZw==/300x240%23c/JHH0O4.jpg" alt="A walk in snow"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078796">A walk in snow</a></h3>
         <div class="game-authors">by <a href="https://divgv.itch.io">Diego García</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078796" name="game2078796">
-          <label for="game2078796">played</label>
+            <input  id="game2078796" name="game2078796" type="checkbox" class="played">
+            <label for="game2078796">played</label>
+            <input  id="fav2078796" name="fav2078796" type="checkbox" class="favorite">
+            <label for="fav2078796">favorite</label>
         </div>
         <div class="game-link"><a href="https://divgv.itch.io/a-walk-in-snow">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073762"><img
-            src="https://img.itch.zone/aW1nLzEyMTk3Mzg2LnBuZw==/300x240%23c/7Cc5%2F8.png"
-            alt="Froggo and Spood [Game Boy Showdown 2023]"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073762">Froggo and
-            Spood [Game Boy Showdown 2023]</a></h3>
-        <div class="game-authors">by <a href="https://grave-reaper-cushions.itch.io">Grave Reaper Cushions</a>.
-        </div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073762"><img src="https://img.itch.zone/aW1nLzEyMTk3Mzg2LnBuZw==/300x240%23c/7Cc5%2F8.png" alt="Froggo and Spood [Game Boy Showdown 2023]"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073762">Froggo and Spood [Game Boy Showdown 2023]</a></h3>
+        <div class="game-authors">by <a href="https://grave-reaper-cushions.itch.io">Grave Reaper Cushions</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2073762" name="game2073762">
-          <label for="game2073762">played</label>
+            <input  id="game2073762" name="game2073762" type="checkbox" class="played">
+            <label for="game2073762">played</label>
+            <input  id="fav2073762" name="fav2073762" type="checkbox" class="favorite">
+            <label for="fav2073762">favorite</label>
         </div>
-        <div class="game-link"><a href="https://grave-reaper-cushions.itch.io/froggo-spood-gb-showdown-2023">PLAY</a>
-        </div>
-      </div>
+        <div class="game-link"><a href="https://grave-reaper-cushions.itch.io/froggo-spood-gb-showdown-2023">PLAY</a></div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072387"><img
-            src="https://img.itch.zone/aW1nLzEyMTg4NTMzLnBuZw==/300x240%23c/A8R8Hg.png" alt="Musical Notes"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072387">Musical
-            Notes</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072387"><img src="https://img.itch.zone/aW1nLzEyMTg4NTMzLnBuZw==/300x240%23c/A8R8Hg.png" alt="Musical Notes"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072387">Musical Notes</a></h3>
         <div class="game-authors">by <a href="https://lacoste42.itch.io">Rajcsányi László (WLS)</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2072387" name="game2072387">
-          <label for="game2072387">played</label>
+            <input  id="game2072387" name="game2072387" type="checkbox" class="played">
+            <label for="game2072387">played</label>
+            <input  id="fav2072387" name="fav2072387" type="checkbox" class="favorite">
+            <label for="fav2072387">favorite</label>
         </div>
         <div class="game-link"><a href="https://lacoste42.itch.io/musical-notes">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077210"><img
-            src="https://img.itch.zone/aW1nLzEyMjE4ODg5LnBuZw==/300x240%23c/Sbc0%2Fp.png" alt="GB Lunar Lander"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077210">GB Lunar
-            Lander</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077210"><img src="https://img.itch.zone/aW1nLzEyMjE4ODg5LnBuZw==/300x240%23c/Sbc0%2Fp.png" alt="GB Lunar Lander"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077210">GB Lunar Lander</a></h3>
         <div class="game-authors">by <a href="https://pigeonaut.itch.io">Pigeonaut</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077210" name="game2077210">
-          <label for="game2077210">played</label>
+            <input  id="game2077210" name="game2077210" type="checkbox" class="played">
+            <label for="game2077210">played</label>
+            <input  id="fav2077210" name="fav2077210" type="checkbox" class="favorite">
+            <label for="fav2077210">favorite</label>
         </div>
         <div class="game-link"><a href="https://pigeonaut.itch.io/gb-lunar-lander">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078894"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4OTk3LnBuZw==/300x240%23c/Ud%2Falh.png" alt="Bug Bites"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078894">Bug Bites</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078894"><img src="https://img.itch.zone/aW1nLzEyMjI4OTk3LnBuZw==/300x240%23c/Ud%2Falh.png" alt="Bug Bites"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078894">Bug Bites</a></h3>
         <div class="game-authors">by <a href="https://dunktasty.itch.io">MOL</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078894" name="game2078894">
-          <label for="game2078894">played</label>
+            <input  id="game2078894" name="game2078894" type="checkbox" class="played">
+            <label for="game2078894">played</label>
+            <input  id="fav2078894" name="fav2078894" type="checkbox" class="favorite">
+            <label for="fav2078894">favorite</label>
         </div>
         <div class="game-link"><a href="https://dunktasty.itch.io/bugbites">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078711"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3NjA1LnBuZw==/300x240%23c/WMetI3.png"
-            alt="A Walk in the Woods [GB Showdown '23]"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078711">A Walk in the
-            Woods [GB Showdown '23]</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078711"><img src="https://img.itch.zone/aW1nLzEyMjI3NjA1LnBuZw==/300x240%23c/WMetI3.png" alt="A Walk in the Woods [GB Showdown '23]"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078711">A Walk in the Woods [GB Showdown '23]</a></h3>
         <div class="game-authors">by <a href="https://mooncaller.itch.io">Mooncaller</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078711" name="game2078711">
-          <label for="game2078711">played</label>
+            <input  id="game2078711" name="game2078711" type="checkbox" class="played">
+            <label for="game2078711">played</label>
+            <input  id="fav2078711" name="fav2078711" type="checkbox" class="favorite">
+            <label for="fav2078711">favorite</label>
         </div>
         <div class="game-link"><a href="https://mooncaller.itch.io/a-walk-in-the-woods">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076824"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3NzI0LnBuZw==/300x240%23c/mPtLJ5.png" alt="Together Alone"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076824">Together
-            Alone</a></h3>
-        <div class="game-authors">by <a href="https://sjorsmaster.itch.io">-【 ʎ ɟ ɟ n ʍ ~ o ɔ ᴉ u 】-</a>, <a
-            href="https://miyulake.itch.io">Miyulake</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076824"><img src="https://img.itch.zone/aW1nLzEyMjI3NzI0LnBuZw==/300x240%23c/mPtLJ5.png" alt="Together Alone"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076824">Together Alone</a></h3>
+        <div class="game-authors">by <a href="https://sjorsmaster.itch.io">-【 ʎ ɟ ɟ n ʍ ~ o ɔ ᴉ u 】-</a>, <a href="https://miyulake.itch.io">Miyulake</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2076824" name="game2076824">
-          <label for="game2076824">played</label>
+            <input  id="game2076824" name="game2076824" type="checkbox" class="played">
+            <label for="game2076824">played</label>
+            <input  id="fav2076824" name="fav2076824" type="checkbox" class="favorite">
+            <label for="fav2076824">favorite</label>
         </div>
         <div class="game-link"><a href="https://sjorsmaster.itch.io/together-alone">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072109"><img
-            src="https://img.itch.zone/aW1nLzEyMTg3NDQzLmdpZg==/300x240%23cm/fj65Xw.gif" alt="Days Without"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072109">Days
-            Without</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072109"><img src="https://img.itch.zone/aW1nLzEyMTg3NDQzLmdpZg==/300x240%23cm/fj65Xw.gif" alt="Days Without"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072109">Days Without</a></h3>
         <div class="game-authors">by <a href="https://elvies.itch.io">Elvies</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2072109" name="game2072109">
-          <label for="game2072109">played</label>
+            <input  id="game2072109" name="game2072109" type="checkbox" class="played">
+            <label for="game2072109">played</label>
+            <input  id="fav2072109" name="fav2072109" type="checkbox" class="favorite">
+            <label for="fav2072109">favorite</label>
         </div>
         <div class="game-link"><a href="https://elvies.itch.io/days-without">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077460"><img
-            src="https://img.itch.zone/aW1nLzEyMjI1MDk2LnBuZw==/300x240%23c/dW9p45.png" alt="Friend of the Void"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077460">Friend of the
-            Void</a></h3>
-        <div class="game-authors">by <a href="https://sleepless-seven.itch.io">Sleepless Seven</a>, <a
-            href="https://horatiunyc.itch.io">Horatiu.nyc</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077460"><img src="https://img.itch.zone/aW1nLzEyMjI1MDk2LnBuZw==/300x240%23c/dW9p45.png" alt="Friend of the Void"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077460">Friend of the Void</a></h3>
+        <div class="game-authors">by <a href="https://sleepless-seven.itch.io">Sleepless Seven</a>, <a href="https://horatiunyc.itch.io">Horatiu.nyc</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077460" name="game2077460">
-          <label for="game2077460">played</label>
+            <input  id="game2077460" name="game2077460" type="checkbox" class="played">
+            <label for="game2077460">played</label>
+            <input  id="fav2077460" name="fav2077460" type="checkbox" class="favorite">
+            <label for="fav2077460">favorite</label>
         </div>
         <div class="game-link"><a href="https://sleepless-seven.itch.io/friend-of-the-void">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078106"><img
-            src="https://img.itch.zone/aW1nLzEyMjIzNzQ2LnBuZw==/300x240%23c/uri8GP.png" alt="The Pacifist"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078106">The
-            Pacifist</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078106"><img src="https://img.itch.zone/aW1nLzEyMjIzNzQ2LnBuZw==/300x240%23c/uri8GP.png" alt="The Pacifist"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078106">The Pacifist</a></h3>
         <div class="game-authors">by <a href="https://rico-harbor.itch.io">Rico Harbor</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078106" name="game2078106">
-          <label for="game2078106">played</label>
+            <input  id="game2078106" name="game2078106" type="checkbox" class="played">
+            <label for="game2078106">played</label>
+            <input  id="fav2078106" name="fav2078106" type="checkbox" class="favorite">
+            <label for="fav2078106">favorite</label>
         </div>
         <div class="game-link"><a href="https://rico-harbor.itch.io/the-pacifist">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078911"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MTM1LnBuZw==/300x240%23c/HQLbJp.png" alt="Grannies"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078911">Grannies</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078911"><img src="https://img.itch.zone/aW1nLzEyMjI5MTM1LnBuZw==/300x240%23c/HQLbJp.png" alt="Grannies"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078911">Grannies</a></h3>
         <div class="game-authors">by <a href="https://hohenstaufer.itch.io">Hohenstaufer</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078911" name="game2078911">
-          <label for="game2078911">played</label>
+            <input  id="game2078911" name="game2078911" type="checkbox" class="played">
+            <label for="game2078911">played</label>
+            <input  id="fav2078911" name="fav2078911" type="checkbox" class="favorite">
+            <label for="fav2078911">favorite</label>
         </div>
         <div class="game-link"><a href="https://hohenstaufer.itch.io/grannies">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076667"><img
-            src="https://img.itch.zone/aW1nLzEyMjIzNDM1LnBuZw==/300x240%23c/D9aaWq.png" alt="Spark"></a>
-      </div>
-      <div class="game-info">
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076667"><img src="https://img.itch.zone/aW1nLzEyMjIzNDM1LnBuZw==/300x240%23c/D9aaWq.png" alt="Spark"></a>
+    </div>
+    <div class="game-info">
         <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076667">Spark</a></h3>
         <div class="game-authors">by <a href="https://lotusgamedev.itch.io">LotusGameDev</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2076667" name="game2076667">
-          <label for="game2076667">played</label>
+            <input  id="game2076667" name="game2076667" type="checkbox" class="played">
+            <label for="game2076667">played</label>
+            <input  id="fav2076667" name="fav2076667" type="checkbox" class="favorite">
+            <label for="fav2076667">favorite</label>
         </div>
         <div class="game-link"><a href="https://lotusgamedev.itch.io/spark">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074402"><img
-            src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg=="
-            alt="Friend?"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074402">Friend?</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074402"><img src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg==" alt="Friend?"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074402">Friend?</a></h3>
         <div class="game-authors">by <a href="https://gb-studio-central.itch.io">GB Studio Central</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2074402" name="game2074402">
-          <label for="game2074402">played</label>
+            <input  id="game2074402" name="game2074402" type="checkbox" class="played">
+            <label for="game2074402">played</label>
+            <input  id="fav2074402" name="fav2074402" type="checkbox" class="favorite">
+            <label for="fav2074402">favorite</label>
         </div>
         <div class="game-link"><a href="https://gb-studio-central.itch.io/freind">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078851"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4NTMzLnBuZw==/300x240%23c/HldvSd.png" alt="Boxed In"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078851">Boxed In</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078851"><img src="https://img.itch.zone/aW1nLzEyMjI4NTMzLnBuZw==/300x240%23c/HldvSd.png" alt="Boxed In"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078851">Boxed In</a></h3>
         <div class="game-authors">by <a href="https://developer0.itch.io">Developer0</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078851" name="game2078851">
-          <label for="game2078851">played</label>
+            <input  id="game2078851" name="game2078851" type="checkbox" class="played">
+            <label for="game2078851">played</label>
+            <input  id="fav2078851" name="fav2078851" type="checkbox" class="favorite">
+            <label for="fav2078851">favorite</label>
         </div>
         <div class="game-link"><a href="https://developer0.itch.io/boxed-in">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078890"><img
-            src="https://img.itch.zone/aW1nLzEyMjMwNDM0LnBuZw==/300x240%23c/snxTBQ.png"
-            alt="The Tale Of Two Dreams"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078890">The Tale Of Two
-            Dreams</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078890"><img src="https://img.itch.zone/aW1nLzEyMjMwNDM0LnBuZw==/300x240%23c/snxTBQ.png" alt="The Tale Of Two Dreams"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078890">The Tale Of Two Dreams</a></h3>
         <div class="game-authors">by <a href="https://lukemm12.itch.io">lukemm12</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078890" name="game2078890">
-          <label for="game2078890">played</label>
+            <input  id="game2078890" name="game2078890" type="checkbox" class="played">
+            <label for="game2078890">played</label>
+            <input  id="fav2078890" name="fav2078890" type="checkbox" class="favorite">
+            <label for="fav2078890">favorite</label>
         </div>
         <div class="game-link"><a href="https://lukemm12.itch.io/the-tale-of-two-dreams">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078741"><img
-            src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg=="
-            alt="Haunted"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078741">Haunted</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078741"><img src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg==" alt="Haunted"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078741">Haunted</a></h3>
         <div class="game-authors">by <a href="https://locrianzone.itch.io">November</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078741" name="game2078741">
-          <label for="game2078741">played</label>
+            <input  id="game2078741" name="game2078741" type="checkbox" class="played">
+            <label for="game2078741">played</label>
+            <input  id="fav2078741" name="fav2078741" type="checkbox" class="favorite">
+            <label for="fav2078741">favorite</label>
         </div>
         <div class="game-link"><a href="https://locrianzone.itch.io/haunted">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078945"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MTc5LnBuZw==/300x240%23c/Exzf0P.png" alt="Friendly Fire"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078945">Friendly
-            Fire</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078945"><img src="https://img.itch.zone/aW1nLzEyMjI5MTc5LnBuZw==/300x240%23c/Exzf0P.png" alt="Friendly Fire"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078945">Friendly Fire</a></h3>
         <div class="game-authors">by <a href="https://videogamestorytime.itch.io">VideoGameStoryTime</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078945" name="game2078945">
-          <label for="game2078945">played</label>
+            <input  id="game2078945" name="game2078945" type="checkbox" class="played">
+            <label for="game2078945">played</label>
+            <input  id="fav2078945" name="fav2078945" type="checkbox" class="favorite">
+            <label for="fav2078945">favorite</label>
         </div>
         <div class="game-link"><a href="https://videogamestorytime.itch.io/friendly-fire">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077316"><img
-            src="https://img.itch.zone/aW1nLzEyMjE5ODYwLnBuZw==/300x240%23c/gR2mO%2B.png"
-            alt="Polaroid: Antarctica"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077316">Polaroid:
-            Antarctica</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077316"><img src="https://img.itch.zone/aW1nLzEyMjE5ODYwLnBuZw==/300x240%23c/gR2mO%2B.png" alt="Polaroid: Antarctica"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077316">Polaroid: Antarctica</a></h3>
         <div class="game-authors">by <a href="https://r-doman.itch.io">Robert Doman</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077316" name="game2077316">
-          <label for="game2077316">played</label>
+            <input  id="game2077316" name="game2077316" type="checkbox" class="played">
+            <label for="game2077316">played</label>
+            <input  id="fav2077316" name="fav2077316" type="checkbox" class="favorite">
+            <label for="fav2077316">favorite</label>
         </div>
         <div class="game-link"><a href="https://r-doman.itch.io/polaroid-antarctica">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078621"><img
-            src="https://img.itch.zone/aW1nLzEyMjI2Nzg2LnBuZw==/300x240%23c/AQ7nuK.png" alt="A Friend In Need"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078621">A Friend In
-            Need</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078621"><img src="https://img.itch.zone/aW1nLzEyMjI2Nzg2LnBuZw==/300x240%23c/AQ7nuK.png" alt="A Friend In Need"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078621">A Friend In Need</a></h3>
         <div class="game-authors">by <a href="https://gorzylla.itch.io">gorzylla</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078621" name="game2078621">
-          <label for="game2078621">played</label>
+            <input  id="game2078621" name="game2078621" type="checkbox" class="played">
+            <label for="game2078621">played</label>
+            <input  id="fav2078621" name="fav2078621" type="checkbox" class="favorite">
+            <label for="fav2078621">favorite</label>
         </div>
         <div class="game-link"><a href="https://gorzylla.itch.io/a-friend-in-need">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078715"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MzQ4LnBuZw==/300x240%23c/hQ6yC5.png" alt="Calling Cloud"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078715">Calling
-            Cloud</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078715"><img src="https://img.itch.zone/aW1nLzEyMjI5MzQ4LnBuZw==/300x240%23c/hQ6yC5.png" alt="Calling Cloud"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078715">Calling Cloud</a></h3>
         <div class="game-authors">by <a href="https://magicite.itch.io">magicite</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078715" name="game2078715">
-          <label for="game2078715">played</label>
+            <input  id="game2078715" name="game2078715" type="checkbox" class="played">
+            <label for="game2078715">played</label>
+            <input  id="fav2078715" name="fav2078715" type="checkbox" class="favorite">
+            <label for="fav2078715">favorite</label>
         </div>
         <div class="game-link"><a href="https://magicite.itch.io/cc">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076463"><img
-            src="https://img.itch.zone/aW1nLzEyMjM2MTIyLnBuZw==/300x240%23c/7orGTL.png"
-            alt="Song of Morus: Ghostly Night"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076463">Song of Morus:
-            Ghostly Night</a></h3>
-        <div class="game-authors">by <a href="https://sunnychowtheguy.itch.io">SunnyChowTheGuy</a>, <a
-            href="https://1kmountains.itch.io">1kmountains</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076463"><img src="https://img.itch.zone/aW1nLzEyMjM2MTIyLnBuZw==/300x240%23c/7orGTL.png" alt="Song of Morus: Ghostly Night"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076463">Song of Morus: Ghostly Night</a></h3>
+        <div class="game-authors">by <a href="https://sunnychowtheguy.itch.io">SunnyChowTheGuy</a>, <a href="https://1kmountains.itch.io">1kmountains</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2076463" name="game2076463">
-          <label for="game2076463">played</label>
+            <input  id="game2076463" name="game2076463" type="checkbox" class="played">
+            <label for="game2076463">played</label>
+            <input  id="fav2076463" name="fav2076463" type="checkbox" class="favorite">
+            <label for="fav2076463">favorite</label>
         </div>
-        <div class="game-link"><a href="https://sunnychowtheguy.itch.io/song-of-morus-ghostly-night">PLAY</a>
-        </div>
-      </div>
+        <div class="game-link"><a href="https://sunnychowtheguy.itch.io/song-of-morus-ghostly-night">PLAY</a></div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077663"><img
-            src="https://img.itch.zone/aW1nLzEyMjI0Nzk4LnBuZw==/300x240%23c/3hGaJf.png" alt="Bin Day!"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077663">Bin Day!</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077663"><img src="https://img.itch.zone/aW1nLzEyMjI0Nzk4LnBuZw==/300x240%23c/3hGaJf.png" alt="Bin Day!"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077663">Bin Day!</a></h3>
         <div class="game-authors">by <a href="https://sjd-sjd.itch.io">sjd</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077663" name="game2077663">
-          <label for="game2077663">played</label>
+            <input  id="game2077663" name="game2077663" type="checkbox" class="played">
+            <label for="game2077663">played</label>
+            <input  id="fav2077663" name="fav2077663" type="checkbox" class="favorite">
+            <label for="fav2077663">favorite</label>
         </div>
         <div class="game-link"><a href="https://sjd-sjd.itch.io/bin-day">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077875"><img
-            src="https://img.itch.zone/aW1nLzEyMjIyMTc4LnBuZw==/300x240%23c/xP2pNJ.png" alt="Polymodus"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077875">Polymodus</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077875"><img src="https://img.itch.zone/aW1nLzEyMjIyMTc4LnBuZw==/300x240%23c/xP2pNJ.png" alt="Polymodus"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077875">Polymodus</a></h3>
         <div class="game-authors">by <a href="https://incognitiouwu.itch.io">incognitio</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077875" name="game2077875">
-          <label for="game2077875">played</label>
+            <input  id="game2077875" name="game2077875" type="checkbox" class="played">
+            <label for="game2077875">played</label>
+            <input  id="fav2077875" name="fav2077875" type="checkbox" class="favorite">
+            <label for="fav2077875">favorite</label>
         </div>
         <div class="game-link"><a href="https://incognitiouwu.itch.io/polymodus">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078902"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MDMxLnBuZw==/300x240%23c/EbLZ%2Fg.png" alt="Bork Paw Kisses"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078902">Bork Paw
-            Kisses</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078902"><img src="https://img.itch.zone/aW1nLzEyMjI5MDMxLnBuZw==/300x240%23c/EbLZ%2Fg.png" alt="Bork Paw Kisses"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078902">Bork Paw Kisses</a></h3>
         <div class="game-authors">by <a href="https://visiface.itch.io">visiface</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078902" name="game2078902">
-          <label for="game2078902">played</label>
+            <input  id="game2078902" name="game2078902" type="checkbox" class="played">
+            <label for="game2078902">played</label>
+            <input  id="fav2078902" name="fav2078902" type="checkbox" class="favorite">
+            <label for="fav2078902">favorite</label>
         </div>
         <div class="game-link"><a href="https://visiface.itch.io/bork-paw-kisses">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077661"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5NDQwLmpwZw==/300x240%23c/ka5zX3.jpg" alt="Robot X Slime"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077661">Robot X
-            Slime</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077661"><img src="https://img.itch.zone/aW1nLzEyMjI5NDQwLmpwZw==/300x240%23c/ka5zX3.jpg" alt="Robot X Slime"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077661">Robot X Slime</a></h3>
         <div class="game-authors">by <a href="https://michlwild.itch.io">Michlwild</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077661" name="game2077661">
-          <label for="game2077661">played</label>
+            <input  id="game2077661" name="game2077661" type="checkbox" class="played">
+            <label for="game2077661">played</label>
+            <input  id="fav2077661" name="fav2077661" type="checkbox" class="favorite">
+            <label for="fav2077661">favorite</label>
         </div>
         <div class="game-link"><a href="https://michlwild.itch.io/robot-x-slime">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078792"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4MDYzLnBuZw==/300x240%23c/rQD1b9.png" alt="Magali The Wiener"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078792">Magali The
-            Wiener</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078792"><img src="https://img.itch.zone/aW1nLzEyMjI4MDYzLnBuZw==/300x240%23c/rQD1b9.png" alt="Magali The Wiener"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078792">Magali The Wiener</a></h3>
         <div class="game-authors">by <a href="https://lab-bueno.itch.io">lab_bueno</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078792" name="game2078792">
-          <label for="game2078792">played</label>
+            <input  id="game2078792" name="game2078792" type="checkbox" class="played">
+            <label for="game2078792">played</label>
+            <input  id="fav2078792" name="fav2078792" type="checkbox" class="favorite">
+            <label for="fav2078792">favorite</label>
         </div>
         <div class="game-link"><a href="https://lab-bueno.itch.io/magali-the-wiener">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078521"><img
-            src="https://img.itch.zone/aW1nLzEyMjI2MTY5LnBuZw==/300x240%23c/B06Bao.png"
-            alt="Gerry the friendly ghost"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078521">Gerry the
-            friendly ghost</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078521"><img src="https://img.itch.zone/aW1nLzEyMjI2MTY5LnBuZw==/300x240%23c/B06Bao.png" alt="Gerry the friendly ghost"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078521">Gerry the friendly ghost</a></h3>
         <div class="game-authors">by <a href="https://ceprotypes.itch.io">ceprotypes</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078521" name="game2078521">
-          <label for="game2078521">played</label>
+            <input  id="game2078521" name="game2078521" type="checkbox" class="played">
+            <label for="game2078521">played</label>
+            <input  id="fav2078521" name="fav2078521" type="checkbox" class="favorite">
+            <label for="fav2078521">favorite</label>
         </div>
         <div class="game-link"><a href="https://ceprotypes.itch.io/gerry-the-friendly-ghost">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078037"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4MjMwLnBuZw==/300x240%23c/WzVgP1.png" alt="Friendly Curse"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078037">Friendly
-            Curse</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078037"><img src="https://img.itch.zone/aW1nLzEyMjI4MjMwLnBuZw==/300x240%23c/WzVgP1.png" alt="Friendly Curse"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078037">Friendly Curse</a></h3>
         <div class="game-authors">by <a href="https://joymachs.itch.io">Disturbiografia</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078037" name="game2078037">
-          <label for="game2078037">played</label>
+            <input  id="game2078037" name="game2078037" type="checkbox" class="played">
+            <label for="game2078037">played</label>
+            <input  id="fav2078037" name="fav2078037" type="checkbox" class="favorite">
+            <label for="fav2078037">favorite</label>
         </div>
         <div class="game-link"><a href="https://joymachs.itch.io/friendly-curse">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076968"><img
-            src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg=="
-            alt="Wandermere"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076968">Wandermere</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076968"><img src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg==" alt="Wandermere"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076968">Wandermere</a></h3>
         <div class="game-authors">by <a href="https://wormfras.itch.io">WormfraS</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2076968" name="game2076968">
-          <label for="game2076968">played</label>
+            <input  id="game2076968" name="game2076968" type="checkbox" class="played">
+            <label for="game2076968">played</label>
+            <input  id="fav2076968" name="fav2076968" type="checkbox" class="favorite">
+            <label for="fav2076968">favorite</label>
         </div>
         <div class="game-link"><a href="https://wormfras.itch.io/wandermere">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077819"><img
-            src="https://img.itch.zone/aW1nLzEyMjIyMDk0LnBuZw==/300x240%23c/CFfGAP.png" alt="The Friendly CPU"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077819">The Friendly
-            CPU</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077819"><img src="https://img.itch.zone/aW1nLzEyMjIyMDk0LnBuZw==/300x240%23c/CFfGAP.png" alt="The Friendly CPU"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077819">The Friendly CPU</a></h3>
         <div class="game-authors">by <a href="https://phil-bad-dad-games.itch.io">Bad_Dad</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077819" name="game2077819">
-          <label for="game2077819">played</label>
+            <input  id="game2077819" name="game2077819" type="checkbox" class="played">
+            <label for="game2077819">played</label>
+            <input  id="fav2077819" name="fav2077819" type="checkbox" class="favorite">
+            <label for="fav2077819">favorite</label>
         </div>
         <div class="game-link"><a href="https://phil-bad-dad-games.itch.io/the-friendly-cpu">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078949"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5NDg0LnBuZw==/300x240%23c/ZS3NL5.png" alt="Seating Chart"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078949">Seating
-            Chart</a></h3>
-        <div class="game-authors">by <a href="https://tylerlombard.itch.io">Tyler Lombard</a>, <a
-            href="https://tswined.itch.io">Tswined</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078949"><img src="https://img.itch.zone/aW1nLzEyMjI5NDg0LnBuZw==/300x240%23c/ZS3NL5.png" alt="Seating Chart"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078949">Seating Chart</a></h3>
+        <div class="game-authors">by <a href="https://tylerlombard.itch.io">Tyler Lombard</a>, <a href="https://tswined.itch.io">Tswined</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078949" name="game2078949">
-          <label for="game2078949">played</label>
+            <input  id="game2078949" name="game2078949" type="checkbox" class="played">
+            <label for="game2078949">played</label>
+            <input  id="fav2078949" name="fav2078949" type="checkbox" class="favorite">
+            <label for="fav2078949">favorite</label>
         </div>
         <div class="game-link"><a href="https://tylerlombard.itch.io/seating-chart">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078693"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3NDMxLnBuZw==/300x240%23c/VKKlLW.png" alt="friendlymen -- format"
-            .gb"--awecome"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078693">friendlymen --
-            format".gb"--awecome</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078693"><img src="https://img.itch.zone/aW1nLzEyMjI3NDMxLnBuZw==/300x240%23c/VKKlLW.png" alt="friendlymen -- format".gb"--awecome"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078693">friendlymen -- format".gb"--awecome</a></h3>
         <div class="game-authors">by <a href="https://vadimilyano.itch.io">Vadimilyano</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078693" name="game2078693">
-          <label for="game2078693">played</label>
+            <input  id="game2078693" name="game2078693" type="checkbox" class="played">
+            <label for="game2078693">played</label>
+            <input  id="fav2078693" name="fav2078693" type="checkbox" class="favorite">
+            <label for="fav2078693">favorite</label>
         </div>
         <div class="game-link"><a href="https://vadimilyano.itch.io/friendlymen">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2068376"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4Njk4LnBuZw==/300x240%23c/1PR7E6.png" alt="pilot"></a>
-      </div>
-      <div class="game-info">
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2068376"><img src="https://img.itch.zone/aW1nLzEyMjI4Njk4LnBuZw==/300x240%23c/1PR7E6.png" alt="pilot"></a>
+    </div>
+    <div class="game-info">
         <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2068376">pilot</a></h3>
         <div class="game-authors">by <a href="https://wish-volo.itch.io">Wish Volo</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2068376" name="game2068376">
-          <label for="game2068376">played</label>
+            <input  id="game2068376" name="game2068376" type="checkbox" class="played">
+            <label for="game2068376">played</label>
+            <input  id="fav2068376" name="fav2068376" type="checkbox" class="favorite">
+            <label for="fav2068376">favorite</label>
         </div>
         <div class="game-link"><a href="https://wish-volo.itch.io/pilot-gbs">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077904"><img
-            src="https://img.itch.zone/aW1nLzEyMjIyNDU4LnBuZw==/300x240%23c/gq%2FZCA.png" alt="Buddy Book Battle"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077904">Buddy Book
-            Battle</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077904"><img src="https://img.itch.zone/aW1nLzEyMjIyNDU4LnBuZw==/300x240%23c/gq%2FZCA.png" alt="Buddy Book Battle"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077904">Buddy Book Battle</a></h3>
         <div class="game-authors">by <a href="https://bownly.itch.io">Bownly</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077904" name="game2077904">
-          <label for="game2077904">played</label>
+            <input  id="game2077904" name="game2077904" type="checkbox" class="played">
+            <label for="game2077904">played</label>
+            <input  id="fav2077904" name="fav2077904" type="checkbox" class="favorite">
+            <label for="fav2077904">favorite</label>
         </div>
         <div class="game-link"><a href="https://bownly.itch.io/buddy-book-battle">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078684"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3MjczLnBuZw==/300x240%23c/hkb%2FGF.png" alt="Cuppa Joe"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078684">Cuppa Joe</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078684"><img src="https://img.itch.zone/aW1nLzEyMjI3MjczLnBuZw==/300x240%23c/hkb%2FGF.png" alt="Cuppa Joe"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078684">Cuppa Joe</a></h3>
         <div class="game-authors">by <a href="https://birdsofafeather.itch.io">birdsofafeather</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078684" name="game2078684">
-          <label for="game2078684">played</label>
+            <input  id="game2078684" name="game2078684" type="checkbox" class="played">
+            <label for="game2078684">played</label>
+            <input  id="fav2078684" name="fav2078684" type="checkbox" class="favorite">
+            <label for="fav2078684">favorite</label>
         </div>
         <div class="game-link"><a href="https://birdsofafeather.itch.io/cuppajoe">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078847"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MDI4LnBuZw==/300x240%23c/K1ZDS7.png" alt="Concert Grove"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078847">Concert
-            Grove</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078847"><img src="https://img.itch.zone/aW1nLzEyMjI5MDI4LnBuZw==/300x240%23c/K1ZDS7.png" alt="Concert Grove"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078847">Concert Grove</a></h3>
         <div class="game-authors">by <a href="https://gamechangermods.itch.io">GamechangerMods</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078847" name="game2078847">
-          <label for="game2078847">played</label>
+            <input  id="game2078847" name="game2078847" type="checkbox" class="played">
+            <label for="game2078847">played</label>
+            <input  id="fav2078847" name="fav2078847" type="checkbox" class="favorite">
+            <label for="fav2078847">favorite</label>
         </div>
         <div class="game-link"><a href="https://gamechangermods.itch.io/concert-grove">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077938"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4MjMxLnBuZw==/300x240%23c/WJuMfz.png" alt="Frown Town GB"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077938">Frown Town
-            GB</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077938"><img src="https://img.itch.zone/aW1nLzEyMjI4MjMxLnBuZw==/300x240%23c/WJuMfz.png" alt="Frown Town GB"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077938">Frown Town GB</a></h3>
         <div class="game-authors">by <a href="https://starksnow.itch.io">Stark</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077938" name="game2077938">
-          <label for="game2077938">played</label>
+            <input  id="game2077938" name="game2077938" type="checkbox" class="played">
+            <label for="game2077938">played</label>
+            <input  id="fav2077938" name="fav2077938" type="checkbox" class="favorite">
+            <label for="fav2077938">favorite</label>
         </div>
         <div class="game-link"><a href="https://starksnow.itch.io/frown-town-gb">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078831"><img
-            src="https://img.itch.zone/aW1nLzEyMjMyODI5LmpwZw==/300x240%23c/NKhQMR.jpg"
-            alt="Retro Quiz Tower (JAM Edition)"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078831">Retro Quiz
-            Tower (JAM Edition)</a></h3>
-        <div class="game-authors">by <a href="https://rubenretro.itch.io">Rubenretro</a>, <a
-            href="https://ainasge.itch.io">Ainon</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078831"><img src="https://img.itch.zone/aW1nLzEyMjMyODI5LmpwZw==/300x240%23c/NKhQMR.jpg" alt="Retro Quiz Tower (JAM Edition)"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078831">Retro Quiz Tower (JAM Edition)</a></h3>
+        <div class="game-authors">by <a href="https://rubenretro.itch.io">Rubenretro</a>, <a href="https://ainasge.itch.io">Ainon</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078831" name="game2078831">
-          <label for="game2078831">played</label>
+            <input  id="game2078831" name="game2078831" type="checkbox" class="played">
+            <label for="game2078831">played</label>
+            <input  id="fav2078831" name="fav2078831" type="checkbox" class="favorite">
+            <label for="fav2078831">favorite</label>
         </div>
         <div class="game-link"><a href="https://rubenretro.itch.io/rqtjam">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078789"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4MDIzLnBuZw==/300x240%23c/b1xk3o.png" alt="Safe File"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078789">Safe File</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078789"><img src="https://img.itch.zone/aW1nLzEyMjI4MDIzLnBuZw==/300x240%23c/b1xk3o.png" alt="Safe File"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078789">Safe File</a></h3>
         <div class="game-authors">by <a href="https://winglesspenny64.itch.io">WinglessPenny64</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078789" name="game2078789">
-          <label for="game2078789">played</label>
+            <input  id="game2078789" name="game2078789" type="checkbox" class="played">
+            <label for="game2078789">played</label>
+            <input  id="fav2078789" name="fav2078789" type="checkbox" class="favorite">
+            <label for="fav2078789">favorite</label>
         </div>
         <div class="game-link"><a href="https://winglesspenny64.itch.io/safe-file">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076095"><img
-            src="https://img.itch.zone/aW1nLzEyMjIyMzkyLnBuZw==/300x240%23c/ShRzxe.png" alt="One Day"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076095">One Day</a>
-        </h3>
-        <div class="game-authors">by <a href="https://vrkitten.itch.io">vrkitten</a>, <a
-            href="https://ryuko5432100.itch.io">Ryuko5432100</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076095"><img src="https://img.itch.zone/aW1nLzEyMjIyMzkyLnBuZw==/300x240%23c/ShRzxe.png" alt="One Day"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076095">One Day</a></h3>
+        <div class="game-authors">by <a href="https://vrkitten.itch.io">vrkitten</a>, <a href="https://ryuko5432100.itch.io">Ryuko5432100</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2076095" name="game2076095">
-          <label for="game2076095">played</label>
+            <input  id="game2076095" name="game2076095" type="checkbox" class="played">
+            <label for="game2076095">played</label>
+            <input  id="fav2076095" name="fav2076095" type="checkbox" class="favorite">
+            <label for="fav2076095">favorite</label>
         </div>
         <div class="game-link"><a href="https://vrkitten.itch.io/one-day">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078411"><img
-            src="https://img.itch.zone/aW1nLzEyMjI2NTAzLnBuZw==/300x240%23c/pNbehg.png" alt="BOBO&PLUSHIE"></a>
-      </div>
-      <div class="game-info">
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078411"><img src="https://img.itch.zone/aW1nLzEyMjI2NTAzLnBuZw==/300x240%23c/pNbehg.png" alt="BOBO&PLUSHIE"></a>
+    </div>
+    <div class="game-info">
         <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078411">BOBO&PLUSHIE</a></h3>
         <div class="game-authors">by <a href="https://quentinm.itch.io">QuentinM</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078411" name="game2078411">
-          <label for="game2078411">played</label>
+            <input  id="game2078411" name="game2078411" type="checkbox" class="played">
+            <label for="game2078411">played</label>
+            <input  id="fav2078411" name="fav2078411" type="checkbox" class="favorite">
+            <label for="fav2078411">favorite</label>
         </div>
         <div class="game-link"><a href="https://quentinm.itch.io/boboplushie">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078916"><img
-            src="https://img.itch.zone/aW1nLzEyMjQ0NTg3LnBuZw==/300x240%23c/f536U6.png"
-            alt="Finally, a quiet place."></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078916">Finally, a
-            quiet place.</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078916"><img src="https://img.itch.zone/aW1nLzEyMjQ0NTg3LnBuZw==/300x240%23c/f536U6.png" alt="Finally, a quiet place."></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078916">Finally, a quiet place.</a></h3>
         <div class="game-authors">by <a href="https://joono.itch.io">Joono</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078916" name="game2078916">
-          <label for="game2078916">played</label>
+            <input  id="game2078916" name="game2078916" type="checkbox" class="played">
+            <label for="game2078916">played</label>
+            <input  id="fav2078916" name="fav2078916" type="checkbox" class="favorite">
+            <label for="fav2078916">favorite</label>
         </div>
         <div class="game-link"><a href="https://joono.itch.io/finally-a-quiet-place">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078936"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MDkwLnBuZw==/300x240%23c/fQn7ep.png"
-            alt="Ms. Hazel's Flower Garden"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078936">Ms. Hazel's
-            Flower Garden</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078936"><img src="https://img.itch.zone/aW1nLzEyMjI5MDkwLnBuZw==/300x240%23c/fQn7ep.png" alt="Ms. Hazel's Flower Garden"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078936">Ms. Hazel's Flower Garden</a></h3>
         <div class="game-authors">by <a href="https://jacobmotlmedia.itch.io">JacobMotlMedia</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078936" name="game2078936">
-          <label for="game2078936">played</label>
+            <input  id="game2078936" name="game2078936" type="checkbox" class="played">
+            <label for="game2078936">played</label>
+            <input  id="fav2078936" name="fav2078936" type="checkbox" class="favorite">
+            <label for="fav2078936">favorite</label>
         </div>
         <div class="game-link"><a href="https://jacobmotlmedia.itch.io/ms-hazels-flower-garden">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076471"><img
-            src="https://img.itch.zone/aW1nLzEyMjE0MTc1LnBuZw==/300x240%23c/cGMCvj.png" alt="Pspsps"></a>
-      </div>
-      <div class="game-info">
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076471"><img src="https://img.itch.zone/aW1nLzEyMjE0MTc1LnBuZw==/300x240%23c/cGMCvj.png" alt="Pspsps"></a>
+    </div>
+    <div class="game-info">
         <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076471">Pspsps</a></h3>
         <div class="game-authors">by <a href="https://fluxmasterfix.itch.io">fluxmasterfix</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2076471" name="game2076471">
-          <label for="game2076471">played</label>
+            <input  id="game2076471" name="game2076471" type="checkbox" class="played">
+            <label for="game2076471">played</label>
+            <input  id="fav2076471" name="fav2076471" type="checkbox" class="favorite">
+            <label for="fav2076471">favorite</label>
         </div>
         <div class="game-link"><a href="https://fluxmasterfix.itch.io/pspsps">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078745"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3ODY0LnBuZw==/300x240%23c/mgXv0S.png" alt="Founded in Fellowship"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078745">Founded in
-            Fellowship</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078745"><img src="https://img.itch.zone/aW1nLzEyMjI3ODY0LnBuZw==/300x240%23c/mgXv0S.png" alt="Founded in Fellowship"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078745">Founded in Fellowship</a></h3>
         <div class="game-authors">by <a href="https://electroparlorgames.itch.io">ElectroParlor Games</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078745" name="game2078745">
-          <label for="game2078745">played</label>
+            <input  id="game2078745" name="game2078745" type="checkbox" class="played">
+            <label for="game2078745">played</label>
+            <input  id="fav2078745" name="fav2078745" type="checkbox" class="favorite">
+            <label for="fav2078745">favorite</label>
         </div>
         <div class="game-link"><a href="https://electroparlorgames.itch.io/founded-in-fellowship">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078947"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MjE2LnBuZw==/300x240%23c/eT8ni1.png" alt="Friend Ship"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078947">Friend Ship</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078947"><img src="https://img.itch.zone/aW1nLzEyMjI5MjE2LnBuZw==/300x240%23c/eT8ni1.png" alt="Friend Ship"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078947">Friend Ship</a></h3>
         <div class="game-authors">by <a href="https://danilolc.itch.io">danilolc</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078947" name="game2078947">
-          <label for="game2078947">played</label>
+            <input  id="game2078947" name="game2078947" type="checkbox" class="played">
+            <label for="game2078947">played</label>
+            <input  id="fav2078947" name="fav2078947" type="checkbox" class="favorite">
+            <label for="fav2078947">favorite</label>
         </div>
         <div class="game-link"><a href="https://danilolc.itch.io/friend-ship">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077196"><img
-            src="https://img.itch.zone/aW1nLzEyMjI1ODk5LnBuZw==/300x240%23c/bTEQoO.png" alt="The shelter"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077196">The shelter</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077196"><img src="https://img.itch.zone/aW1nLzEyMjI1ODk5LnBuZw==/300x240%23c/bTEQoO.png" alt="The shelter"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077196">The shelter</a></h3>
         <div class="game-authors">by <a href="https://selbryn.itch.io">Selbryn</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077196" name="game2077196">
-          <label for="game2077196">played</label>
+            <input  id="game2077196" name="game2077196" type="checkbox" class="played">
+            <label for="game2077196">played</label>
+            <input  id="fav2077196" name="fav2077196" type="checkbox" class="favorite">
+            <label for="fav2077196">favorite</label>
         </div>
         <div class="game-link"><a href="https://selbryn.itch.io/the-shelter">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075653"><img
-            src="https://img.itch.zone/aW1nLzEyMjE1ODIwLnBuZw==/300x240%23c/ILZ9Rh.png" alt="Trve Metal Crossing"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075653">Trve Metal
-            Crossing</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075653"><img src="https://img.itch.zone/aW1nLzEyMjE1ODIwLnBuZw==/300x240%23c/ILZ9Rh.png" alt="Trve Metal Crossing"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075653">Trve Metal Crossing</a></h3>
         <div class="game-authors">by <a href="https://scotaire.itch.io">Scotaire</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2075653" name="game2075653">
-          <label for="game2075653">played</label>
+            <input  id="game2075653" name="game2075653" type="checkbox" class="played">
+            <label for="game2075653">played</label>
+            <input  id="fav2075653" name="fav2075653" type="checkbox" class="favorite">
+            <label for="fav2075653">favorite</label>
         </div>
         <div class="game-link"><a href="https://scotaire.itch.io/trve-metal-crossing">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075034"><img
-            src="https://img.itch.zone/aW1nLzEyMjA0NjM2LnBuZw==/300x240%23c/W0FJHf.png" alt="Somos Amigos"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075034">Somos
-            Amigos</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075034"><img src="https://img.itch.zone/aW1nLzEyMjA0NjM2LnBuZw==/300x240%23c/W0FJHf.png" alt="Somos Amigos"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075034">Somos Amigos</a></h3>
         <div class="game-authors">by <a href="https://el-papu1111.itch.io">El_Papu1111</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2075034" name="game2075034">
-          <label for="game2075034">played</label>
+            <input  id="game2075034" name="game2075034" type="checkbox" class="played">
+            <label for="game2075034">played</label>
+            <input  id="fav2075034" name="fav2075034" type="checkbox" class="favorite">
+            <label for="fav2075034">favorite</label>
         </div>
         <div class="game-link"><a href="https://el-papu1111.itch.io/somos-amigos">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073667"><img
-            src="https://img.itch.zone/aW1nLzEyMTk2NDU0LnBuZw==/300x240%23c/A0sV7J.png" alt="freind jam submission"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073667">freind jam
-            submission</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073667"><img src="https://img.itch.zone/aW1nLzEyMTk2NDU0LnBuZw==/300x240%23c/A0sV7J.png" alt="freind jam submission"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073667">freind jam submission</a></h3>
         <div class="game-authors">by <a href="https://skittlesfiddles.itch.io">Repugnant Bounty</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2073667" name="game2073667">
-          <label for="game2073667">played</label>
+            <input  id="game2073667" name="game2073667" type="checkbox" class="played">
+            <label for="game2073667">played</label>
+            <input  id="fav2073667" name="fav2073667" type="checkbox" class="favorite">
+            <label for="fav2073667">favorite</label>
         </div>
         <div class="game-link"><a href="https://skittlesfiddles.itch.io/freind-jam-submission">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078094"><img
-            src="https://img.itch.zone/aW1nLzEyMjI0Njc0LmdpZg==/300x240%23cm/SjT2aj.gif" alt="RunieStory"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078094">RunieStory</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078094"><img src="https://img.itch.zone/aW1nLzEyMjI0Njc0LmdpZg==/300x240%23cm/SjT2aj.gif" alt="RunieStory"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078094">RunieStory</a></h3>
         <div class="game-authors">by <a href="https://spicyfuse.itch.io">Spicyfuse</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078094" name="game2078094">
-          <label for="game2078094">played</label>
+            <input  id="game2078094" name="game2078094" type="checkbox" class="played">
+            <label for="game2078094">played</label>
+            <input  id="fav2078094" name="fav2078094" type="checkbox" class="favorite">
+            <label for="fav2078094">favorite</label>
         </div>
         <div class="game-link"><a href="https://spicyfuse.itch.io/runiestory">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078679"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3NTEyLnBuZw==/300x240%23c/LCG%2FlG.png" alt="A Grave Encounter"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078679">A Grave
-            Encounter</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078679"><img src="https://img.itch.zone/aW1nLzEyMjI3NTEyLnBuZw==/300x240%23c/LCG%2FlG.png" alt="A Grave Encounter"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078679">A Grave Encounter</a></h3>
         <div class="game-authors">by <a href="https://fireflanger.itch.io">fireflanger</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078679" name="game2078679">
-          <label for="game2078679">played</label>
+            <input  id="game2078679" name="game2078679" type="checkbox" class="played">
+            <label for="game2078679">played</label>
+            <input  id="fav2078679" name="fav2078679" type="checkbox" class="favorite">
+            <label for="fav2078679">favorite</label>
         </div>
         <div class="game-link"><a href="https://fireflanger.itch.io/a-grave-encounter">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074762"><img
-            src="https://img.itch.zone/aW1nLzEyMjA0NzY0LmpwZw==/300x240%23c/UU2b1%2B.jpg" alt="bone finder"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074762">bone finder</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074762"><img src="https://img.itch.zone/aW1nLzEyMjA0NzY0LmpwZw==/300x240%23c/UU2b1%2B.jpg" alt="bone finder"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2074762">bone finder</a></h3>
         <div class="game-authors">by <a href="https://djarky.itch.io">DJARKY</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2074762" name="game2074762">
-          <label for="game2074762">played</label>
+            <input  id="game2074762" name="game2074762" type="checkbox" class="played">
+            <label for="game2074762">played</label>
+            <input  id="fav2074762" name="fav2074762" type="checkbox" class="favorite">
+            <label for="fav2074762">favorite</label>
         </div>
         <div class="game-link"><a href="https://djarky.itch.io/bone-finder">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077714"><img
-            src="https://img.itch.zone/aW1nLzEyMjM1NDU2LnBuZw==/300x240%23c/HxNUL6.png" alt="Sir Diesalot"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077714">Sir
-            Diesalot</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077714"><img src="https://img.itch.zone/aW1nLzEyMjM1NDU2LnBuZw==/300x240%23c/HxNUL6.png" alt="Sir Diesalot"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077714">Sir Diesalot</a></h3>
         <div class="game-authors">by <a href="https://nemuristar.itch.io">Nemuristar</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077714" name="game2077714">
-          <label for="game2077714">played</label>
+            <input  id="game2077714" name="game2077714" type="checkbox" class="played">
+            <label for="game2077714">played</label>
+            <input  id="fav2077714" name="fav2077714" type="checkbox" class="favorite">
+            <label for="fav2077714">favorite</label>
         </div>
         <div class="game-link"><a href="https://nemuristar.itch.io/sir-diesalot">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075399"><img
-            src="https://img.itch.zone/aW1nLzEyMjA3MTc0LnBuZw==/300x240%23c/6JqEvN.png" alt="GB_PongoFriends"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075399">GB_PongoFriends</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075399"><img src="https://img.itch.zone/aW1nLzEyMjA3MTc0LnBuZw==/300x240%23c/6JqEvN.png" alt="GB_PongoFriends"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075399">GB_PongoFriends</a></h3>
         <div class="game-authors">by <a href="https://creativags.itch.io">CreativaGS</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2075399" name="game2075399">
-          <label for="game2075399">played</label>
+            <input  id="game2075399" name="game2075399" type="checkbox" class="played">
+            <label for="game2075399">played</label>
+            <input  id="fav2075399" name="fav2075399" type="checkbox" class="favorite">
+            <label for="fav2075399">favorite</label>
         </div>
         <div class="game-link"><a href="https://creativags.itch.io/gb-pongo1">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078898"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3NDkzLnBuZw==/300x240%23c/Iod1bG.png" alt="River Styx Round-Up"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078898">River Styx
-            Round-Up</a></h3>
-        <div class="game-authors">by <a href="https://idnitmedia.itch.io">IdnitMedia</a>, <a
-            href="https://rabbitkingstudio.itch.io">RABBITKING</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078898"><img src="https://img.itch.zone/aW1nLzEyMjI3NDkzLnBuZw==/300x240%23c/Iod1bG.png" alt="River Styx Round-Up"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078898">River Styx Round-Up</a></h3>
+        <div class="game-authors">by <a href="https://idnitmedia.itch.io">IdnitMedia</a>, <a href="https://rabbitkingstudio.itch.io">RABBITKING</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078898" name="game2078898">
-          <label for="game2078898">played</label>
+            <input  id="game2078898" name="game2078898" type="checkbox" class="played">
+            <label for="game2078898">played</label>
+            <input  id="fav2078898" name="fav2078898" type="checkbox" class="favorite">
+            <label for="fav2078898">favorite</label>
         </div>
         <div class="game-link"><a href="https://idnitmedia.itch.io/river-styx-round-up">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077125"><img
-            src="https://img.itch.zone/aW1nLzEyMjIxNjcyLnBuZw==/300x240%23c/y81TWV.png" alt="Around Town"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077125">Around Town</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077125"><img src="https://img.itch.zone/aW1nLzEyMjIxNjcyLnBuZw==/300x240%23c/y81TWV.png" alt="Around Town"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077125">Around Town</a></h3>
         <div class="game-authors">by <a href="https://toadstoolpicnic.itch.io">Toadstoolpicnic</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077125" name="game2077125">
-          <label for="game2077125">played</label>
+            <input  id="game2077125" name="game2077125" type="checkbox" class="played">
+            <label for="game2077125">played</label>
+            <input  id="fav2077125" name="fav2077125" type="checkbox" class="favorite">
+            <label for="fav2077125">favorite</label>
         </div>
         <div class="game-link"><a href="https://toadstoolpicnic.itch.io/around-town">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078836"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4NDQ2LnBuZw==/300x240%23c/r7qR%2Fu.png"
-            alt="You are my New friend"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078836">You are my New
-            friend</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078836"><img src="https://img.itch.zone/aW1nLzEyMjI4NDQ2LnBuZw==/300x240%23c/r7qR%2Fu.png" alt="You are my New friend"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078836">You are my New friend</a></h3>
         <div class="game-authors">by <a href="https://projectsrya.itch.io">:></a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078836" name="game2078836">
-          <label for="game2078836">played</label>
+            <input  id="game2078836" name="game2078836" type="checkbox" class="played">
+            <label for="game2078836">played</label>
+            <input  id="fav2078836" name="fav2078836" type="checkbox" class="favorite">
+            <label for="fav2078836">favorite</label>
         </div>
         <div class="game-link"><a href="https://projectsrya.itch.io/you-are-my-new-friend">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078934"><img
-            src="https://img.itch.zone/aW1nLzEyMjQyOTgyLnBuZw==/300x240%23c/A%2BEXVP.png"
-            alt="The Trials of Goodbye"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078934">The Trials of
-            Goodbye</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078934"><img src="https://img.itch.zone/aW1nLzEyMjQyOTgyLnBuZw==/300x240%23c/A%2BEXVP.png" alt="The Trials of Goodbye"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078934">The Trials of Goodbye</a></h3>
         <div class="game-authors">by <a href="https://baegho.itch.io">Yasmine</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078934" name="game2078934">
-          <label for="game2078934">played</label>
+            <input  id="game2078934" name="game2078934" type="checkbox" class="played">
+            <label for="game2078934">played</label>
+            <input  id="fav2078934" name="fav2078934" type="checkbox" class="favorite">
+            <label for="fav2078934">favorite</label>
         </div>
         <div class="game-link"><a href="https://baegho.itch.io/the-trials-of-goodbye">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077613"><img
-            src="https://img.itch.zone/aW1nLzEyMjIwNTQwLnBuZw==/300x240%23c/5jUFWj.png" alt="Caretaker"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077613">Caretaker</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077613"><img src="https://img.itch.zone/aW1nLzEyMjIwNTQwLnBuZw==/300x240%23c/5jUFWj.png" alt="Caretaker"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077613">Caretaker</a></h3>
         <div class="game-authors">by <a href="https://losttokens.itch.io">LostTokens</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077613" name="game2077613">
-          <label for="game2077613">played</label>
+            <input  id="game2077613" name="game2077613" type="checkbox" class="played">
+            <label for="game2077613">played</label>
+            <input  id="fav2077613" name="fav2077613" type="checkbox" class="favorite">
+            <label for="fav2077613">favorite</label>
         </div>
         <div class="game-link"><a href="https://losttokens.itch.io/caretaker">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078297"><img
-            src="https://img.itch.zone/aW1nLzEyMjQxMTE1LnBuZw==/300x240%23c/e%2BM2wk.png" alt="Let's Bee Friends"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078297">Let's Bee
-            Friends</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078297"><img src="https://img.itch.zone/aW1nLzEyMjQxMTE1LnBuZw==/300x240%23c/e%2BM2wk.png" alt="Let's Bee Friends"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078297">Let's Bee Friends</a></h3>
         <div class="game-authors">by <a href="https://howdyriceball.itch.io">howdy riceball</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078297" name="game2078297">
-          <label for="game2078297">played</label>
+            <input  id="game2078297" name="game2078297" type="checkbox" class="played">
+            <label for="game2078297">played</label>
+            <input  id="fav2078297" name="fav2078297" type="checkbox" class="favorite">
+            <label for="fav2078297">favorite</label>
         </div>
         <div class="game-link"><a href="https://howdyriceball.itch.io/lets-bee-friends">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078909"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4ODkwLnBuZw==/300x240%23c/alw2oA.png"
-            alt="The Adventures and Misadventures of Three Friendly Animals: Part 4"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078909">The Adventures
-            and Misadventures of Three Friendly Animals: Part 4</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078909"><img src="https://img.itch.zone/aW1nLzEyMjI4ODkwLnBuZw==/300x240%23c/alw2oA.png" alt="The Adventures and Misadventures of Three Friendly Animals: Part 4"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078909">The Adventures and Misadventures of Three Friendly Animals: Part 4</a></h3>
         <div class="game-authors">by <a href="https://thincavalcanti.itch.io">thincavalcanti</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078909" name="game2078909">
-          <label for="game2078909">played</label>
+            <input  id="game2078909" name="game2078909" type="checkbox" class="played">
+            <label for="game2078909">played</label>
+            <input  id="fav2078909" name="fav2078909" type="checkbox" class="favorite">
+            <label for="fav2078909">favorite</label>
         </div>
-        <div class="game-link"><a
-            href="https://thincavalcanti.itch.io/the-adventures-and-misadventures-of-three-friendly-animals-part-4">PLAY</a>
-        </div>
-      </div>
+        <div class="game-link"><a href="https://thincavalcanti.itch.io/the-adventures-and-misadventures-of-three-friendly-animals-part-4">PLAY</a></div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076922"><img
-            src="https://img.itch.zone/aW1nLzEyMjE2ODQ4LnBuZw==/300x240%23c/JKp7Tx.png" alt="Friendly Pirates"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076922">Friendly
-            Pirates</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076922"><img src="https://img.itch.zone/aW1nLzEyMjE2ODQ4LnBuZw==/300x240%23c/JKp7Tx.png" alt="Friendly Pirates"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2076922">Friendly Pirates</a></h3>
         <div class="game-authors">by <a href="https://mbaran.itch.io">Eric Studio40A</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2076922" name="game2076922">
-          <label for="game2076922">played</label>
+            <input  id="game2076922" name="game2076922" type="checkbox" class="played">
+            <label for="game2076922">played</label>
+            <input  id="fav2076922" name="fav2076922" type="checkbox" class="favorite">
+            <label for="fav2076922">favorite</label>
         </div>
         <div class="game-link"><a href="https://mbaran.itch.io/friendly-pirates">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075578"><img
-            src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg=="
-            alt="Love You To Death"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075578">Love You To
-            Death</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075578"><img src="data:image/png;base64,  iVBORw0KGgoAAAANSUhEUgAAASwAAADwCAYAAAC69lmVAAACaElEQVR42u3UQREAAAQAQSKKJIPCajCzG+Eel9E1AfBAGhZgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhAYZlWIBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFGJZhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBZgWIYFGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhyQAYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYAIYFGBaAYQEYFmBYAIYFYFiAYQEYFoBhAYYFYFiAYQEYFoBhAYYFYFgAhgUYFoBhARgWYFgAhgVgWIBhARgWgGEBhgVgWACGBRgWgGEBGBZgWACGBWBYgGEBGBaAYQGGBWBYgGEBGBaAYQGGBWBYAIYFGBbALQuCj0+wi5qHGgAAAABJRU5ErkJggg==" alt="Love You To Death"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075578">Love You To Death</a></h3>
         <div class="game-authors">by <a href="https://gearfo.itch.io">gearfo</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2075578" name="game2075578">
-          <label for="game2075578">played</label>
+            <input  id="game2075578" name="game2075578" type="checkbox" class="played">
+            <label for="game2075578">played</label>
+            <input  id="fav2075578" name="fav2075578" type="checkbox" class="favorite">
+            <label for="fav2075578">favorite</label>
         </div>
         <div class="game-link"><a href="https://gearfo.itch.io/love-you-to-death">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077930"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3Mzc4LnBuZw==/300x240%23c/rAUVPh.png" alt="The Fetch Quest"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077930">The Fetch
-            Quest</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077930"><img src="https://img.itch.zone/aW1nLzEyMjI3Mzc4LnBuZw==/300x240%23c/rAUVPh.png" alt="The Fetch Quest"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077930">The Fetch Quest</a></h3>
         <div class="game-authors">by <a href="https://bandana-d.itch.io">BanDana</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077930" name="game2077930">
-          <label for="game2077930">played</label>
+            <input  id="game2077930" name="game2077930" type="checkbox" class="played">
+            <label for="game2077930">played</label>
+            <input  id="fav2077930" name="fav2077930" type="checkbox" class="favorite">
+            <label for="fav2077930">favorite</label>
         </div>
         <div class="game-link"><a href="https://bandana-d.itch.io/the-fetch-quest">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078817"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3NTYyLnBuZw==/300x240%23c/WhpXM0.png" alt="Tropical Persuasion"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078817">Tropical
-            Persuasion</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078817"><img src="https://img.itch.zone/aW1nLzEyMjI3NTYyLnBuZw==/300x240%23c/WhpXM0.png" alt="Tropical Persuasion"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078817">Tropical Persuasion</a></h3>
         <div class="game-authors">by <a href="https://hightowerbk.itch.io">HighTowerBK</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078817" name="game2078817">
-          <label for="game2078817">played</label>
+            <input  id="game2078817" name="game2078817" type="checkbox" class="played">
+            <label for="game2078817">played</label>
+            <input  id="fav2078817" name="fav2078817" type="checkbox" class="favorite">
+            <label for="fav2078817">favorite</label>
         </div>
         <div class="game-link"><a href="https://hightowerbk.itch.io/tropical-persuasion">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077953"><img
-            src="https://img.itch.zone/aW1nLzEyMjI3NDQ0LnBuZw==/300x240%23c/zbPGfk.png" alt="The Pact"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077953">The Pact</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077953"><img src="https://img.itch.zone/aW1nLzEyMjI3NDQ0LnBuZw==/300x240%23c/zbPGfk.png" alt="The Pact"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077953">The Pact</a></h3>
         <div class="game-authors">by <a href="https://allalonegamez.itch.io">allalonegamez</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077953" name="game2077953">
-          <label for="game2077953">played</label>
+            <input  id="game2077953" name="game2077953" type="checkbox" class="played">
+            <label for="game2077953">played</label>
+            <input  id="fav2077953" name="fav2077953" type="checkbox" class="favorite">
+            <label for="fav2077953">favorite</label>
         </div>
         <div class="game-link"><a href="https://allalonegamez.itch.io/the-pact">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075966"><img
-            src="https://img.itch.zone/aW1nLzEyMjIzMjk3LnBuZw==/300x240%23c/o393Zz.png" alt="Galactic Ambassador"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075966">Galactic
-            Ambassador</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075966"><img src="https://img.itch.zone/aW1nLzEyMjIzMjk3LnBuZw==/300x240%23c/o393Zz.png" alt="Galactic Ambassador"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075966">Galactic Ambassador</a></h3>
         <div class="game-authors">by <a href="https://uso5.itch.io">uso5</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2075966" name="game2075966">
-          <label for="game2075966">played</label>
+            <input  id="game2075966" name="game2075966" type="checkbox" class="played">
+            <label for="game2075966">played</label>
+            <input  id="fav2075966" name="fav2075966" type="checkbox" class="favorite">
+            <label for="fav2075966">favorite</label>
         </div>
         <div class="game-link"><a href="https://uso5.itch.io/galactic-ambassador">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077413"><img
-            src="https://img.itch.zone/aW1nLzEyMjE5NjQ1LnBuZw==/300x240%23c/ULBbeK.png"
-            alt="My Friendly Little Island"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077413">My Friendly
-            Little Island</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077413"><img src="https://img.itch.zone/aW1nLzEyMjE5NjQ1LnBuZw==/300x240%23c/ULBbeK.png" alt="My Friendly Little Island"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077413">My Friendly Little Island</a></h3>
         <div class="game-authors">by <a href="https://playinstinct.itch.io">playinstinct</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077413" name="game2077413">
-          <label for="game2077413">played</label>
+            <input  id="game2077413" name="game2077413" type="checkbox" class="played">
+            <label for="game2077413">played</label>
+            <input  id="fav2077413" name="fav2077413" type="checkbox" class="favorite">
+            <label for="fav2077413">favorite</label>
         </div>
         <div class="game-link"><a href="https://playinstinct.itch.io/my-friendly-little-island">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078927"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MTE2LnBuZw==/300x240%23c/IjxX4E.png" alt="Friend Switch"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078927">Friend
-            Switch</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078927"><img src="https://img.itch.zone/aW1nLzEyMjI5MTE2LnBuZw==/300x240%23c/IjxX4E.png" alt="Friend Switch"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078927">Friend Switch</a></h3>
         <div class="game-authors">by <a href="https://kicdogames.itch.io">kicdogames</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078927" name="game2078927">
-          <label for="game2078927">played</label>
+            <input  id="game2078927" name="game2078927" type="checkbox" class="played">
+            <label for="game2078927">played</label>
+            <input  id="fav2078927" name="fav2078927" type="checkbox" class="favorite">
+            <label for="fav2078927">favorite</label>
         </div>
         <div class="game-link"><a href="https://kicdogames.itch.io/friend-switch">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073255"><img
-            src="https://img.itch.zone/aW1nLzEyMjA5ODY5LnBuZw==/300x240%23c/QFyYU0.png" alt="Cache Cache"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073255">Cache Cache</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073255"><img src="https://img.itch.zone/aW1nLzEyMjA5ODY5LnBuZw==/300x240%23c/QFyYU0.png" alt="Cache Cache"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2073255">Cache Cache</a></h3>
         <div class="game-authors">by <a href="https://farfadet46.itch.io">farfadet46</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2073255" name="game2073255">
-          <label for="game2073255">played</label>
+            <input  id="game2073255" name="game2073255" type="checkbox" class="played">
+            <label for="game2073255">played</label>
+            <input  id="fav2073255" name="fav2073255" type="checkbox" class="favorite">
+            <label for="fav2073255">favorite</label>
         </div>
         <div class="game-link"><a href="https://farfadet46.itch.io/cache-cache">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077968"><img
-            src="https://img.itch.zone/aW1nLzEyMjIyNjg3LnBuZw==/300x240%23c/%2Fc2bze.png"
-            alt="Don't Forget To Smile"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077968">Don't Forget To
-            Smile</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077968"><img src="https://img.itch.zone/aW1nLzEyMjIyNjg3LnBuZw==/300x240%23c/%2Fc2bze.png" alt="Don't Forget To Smile"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077968">Don't Forget To Smile</a></h3>
         <div class="game-authors">by <a href="https://dionofspice.itch.io">DionOfSpice</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077968" name="game2077968">
-          <label for="game2077968">played</label>
+            <input  id="game2077968" name="game2077968" type="checkbox" class="played">
+            <label for="game2077968">played</label>
+            <input  id="fav2077968" name="fav2077968" type="checkbox" class="favorite">
+            <label for="fav2077968">favorite</label>
         </div>
         <div class="game-link"><a href="https://dionofspice.itch.io/dont-forget-to-smile">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078495"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4MDcwLnBuZw==/300x240%23c/9pAX9C.png" alt="Super Bunny Mission"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078495">Super Bunny
-            Mission</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078495"><img src="https://img.itch.zone/aW1nLzEyMjI4MDcwLnBuZw==/300x240%23c/9pAX9C.png" alt="Super Bunny Mission"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078495">Super Bunny Mission</a></h3>
         <div class="game-authors">by <a href="https://sododev.itch.io">SōdoDev</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078495" name="game2078495">
-          <label for="game2078495">played</label>
+            <input  id="game2078495" name="game2078495" type="checkbox" class="played">
+            <label for="game2078495">played</label>
+            <input  id="fav2078495" name="fav2078495" type="checkbox" class="favorite">
+            <label for="fav2078495">favorite</label>
         </div>
         <div class="game-link"><a href="https://sododev.itch.io/super-bunny-mission">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078874"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4NjAzLnBuZw==/300x240%23c/lUZUVe.png" alt="Friend Quest"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078874">Friend
-            Quest</a></h3>
-        <div class="game-authors">by <a href="https://briziant.itch.io">briziant</a>, <a
-            href="https://zetheon.itch.io">Zetheon</a>, <a href="https://ptewie.itch.io">ptewie</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078874"><img src="https://img.itch.zone/aW1nLzEyMjI4NjAzLnBuZw==/300x240%23c/lUZUVe.png" alt="Friend Quest"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078874">Friend Quest</a></h3>
+        <div class="game-authors">by <a href="https://briziant.itch.io">briziant</a>, <a href="https://zetheon.itch.io">Zetheon</a>, <a href="https://ptewie.itch.io">ptewie</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078874" name="game2078874">
-          <label for="game2078874">played</label>
+            <input  id="game2078874" name="game2078874" type="checkbox" class="played">
+            <label for="game2078874">played</label>
+            <input  id="fav2078874" name="fav2078874" type="checkbox" class="favorite">
+            <label for="fav2078874">favorite</label>
         </div>
         <div class="game-link"><a href="https://briziant.itch.io/friend-quest">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078919"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MTkzLnBuZw==/300x240%23c/hpho3C.png" alt="Friendly Delivery"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078919">Friendly
-            Delivery</a></h3>
-        <div class="game-authors">by <a href="https://lowstakesdev.itch.io">alex (she/her)</a>, <a
-            href="https://whoaitsjoan.itch.io">whoaitsjoan</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078919"><img src="https://img.itch.zone/aW1nLzEyMjI5MTkzLnBuZw==/300x240%23c/hpho3C.png" alt="Friendly Delivery"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078919">Friendly Delivery</a></h3>
+        <div class="game-authors">by <a href="https://lowstakesdev.itch.io">alex (she/her)</a>, <a href="https://whoaitsjoan.itch.io">whoaitsjoan</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078919" name="game2078919">
-          <label for="game2078919">played</label>
+            <input  id="game2078919" name="game2078919" type="checkbox" class="played">
+            <label for="game2078919">played</label>
+            <input  id="fav2078919" name="fav2078919" type="checkbox" class="favorite">
+            <label for="fav2078919">favorite</label>
         </div>
         <div class="game-link"><a href="https://lowstakesdev.itch.io/friendly-delivery">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078413"><img
-            src="https://img.itch.zone/aW1nLzEyMjI1NDM5LmdpZg==/300x240%23cm/aHs9S6.gif" alt="Friend Finder"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078413">Friend
-            Finder</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078413"><img src="https://img.itch.zone/aW1nLzEyMjI1NDM5LmdpZg==/300x240%23cm/aHs9S6.gif" alt="Friend Finder"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078413">Friend Finder</a></h3>
         <div class="game-authors">by <a href="https://wrong-way-games.itch.io">Wrong Way Games</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078413" name="game2078413">
-          <label for="game2078413">played</label>
+            <input  id="game2078413" name="game2078413" type="checkbox" class="played">
+            <label for="game2078413">played</label>
+            <input  id="fav2078413" name="fav2078413" type="checkbox" class="favorite">
+            <label for="fav2078413">favorite</label>
         </div>
         <div class="game-link"><a href="https://wrong-way-games.itch.io/friend-finder">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077262"><img
-            src="https://img.itch.zone/aW1nLzEyMjE5MjkwLnBuZw==/300x240%23c/1smKcj.png" alt="Unholy Friend"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077262">Unholy
-            Friend</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077262"><img src="https://img.itch.zone/aW1nLzEyMjE5MjkwLnBuZw==/300x240%23c/1smKcj.png" alt="Unholy Friend"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077262">Unholy Friend</a></h3>
         <div class="game-authors">by <a href="https://tcsouza.itch.io">tcsouza</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077262" name="game2077262">
-          <label for="game2077262">played</label>
+            <input  id="game2077262" name="game2077262" type="checkbox" class="played">
+            <label for="game2077262">played</label>
+            <input  id="fav2077262" name="fav2077262" type="checkbox" class="favorite">
+            <label for="fav2077262">favorite</label>
         </div>
         <div class="game-link"><a href="https://tcsouza.itch.io/unholy-friend">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072924"><img
-            src="https://img.itch.zone/aW1nLzEyMjIzMDk1LnBuZw==/300x240%23c/CRBTIZ.png"
-            alt="Cinnamon & Bean In The Unfriendly Forest"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072924">Cinnamon & Bean
-            In The Unfriendly Forest</a></h3>
-        <div class="game-authors">by <a href="https://sillysadielady.itch.io">SillySadieLady</a>, <a
-            href="https://iridialux.itch.io">IridiaLux</a>.</div>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072924"><img src="https://img.itch.zone/aW1nLzEyMjIzMDk1LnBuZw==/300x240%23c/CRBTIZ.png" alt="Cinnamon & Bean In The Unfriendly Forest"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2072924">Cinnamon & Bean In The Unfriendly Forest</a></h3>
+        <div class="game-authors">by <a href="https://sillysadielady.itch.io">SillySadieLady</a>, <a href="https://iridialux.itch.io">IridiaLux</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2072924" name="game2072924">
-          <label for="game2072924">played</label>
+            <input  id="game2072924" name="game2072924" type="checkbox" class="played">
+            <label for="game2072924">played</label>
+            <input  id="fav2072924" name="fav2072924" type="checkbox" class="favorite">
+            <label for="fav2072924">favorite</label>
         </div>
         <div class="game-link"><a href="https://sillysadielady.itch.io/friendly">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078900"><img
-            src="https://img.itch.zone/aW1nLzEyMjI4ODMyLnBuZw==/300x240%23c/vuiKJa.png" alt="Noah 1.5"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078900">Noah 1.5</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078900"><img src="https://img.itch.zone/aW1nLzEyMjI4ODMyLnBuZw==/300x240%23c/vuiKJa.png" alt="Noah 1.5"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078900">Noah 1.5</a></h3>
         <div class="game-authors">by <a href="https://sloopygoop.itch.io">sloopygoop</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078900" name="game2078900">
-          <label for="game2078900">played</label>
+            <input  id="game2078900" name="game2078900" type="checkbox" class="played">
+            <label for="game2078900">played</label>
+            <input  id="fav2078900" name="fav2078900" type="checkbox" class="favorite">
+            <label for="fav2078900">favorite</label>
         </div>
         <div class="game-link"><a href="https://sloopygoop.itch.io/noah-demo">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077903"><img
-            src="https://img.itch.zone/aW1nLzEyMjIyNzc3LnBuZw==/300x240%23c/HL5t1%2B.png"
-            alt="What Friends Are For"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077903">What Friends
-            Are For</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077903"><img src="https://img.itch.zone/aW1nLzEyMjIyNzc3LnBuZw==/300x240%23c/HL5t1%2B.png" alt="What Friends Are For"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2077903">What Friends Are For</a></h3>
         <div class="game-authors">by <a href="https://shin.itch.io">shin</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2077903" name="game2077903">
-          <label for="game2077903">played</label>
+            <input  id="game2077903" name="game2077903" type="checkbox" class="played">
+            <label for="game2077903">played</label>
+            <input  id="fav2077903" name="fav2077903" type="checkbox" class="favorite">
+            <label for="fav2077903">favorite</label>
         </div>
         <div class="game-link"><a href="https://shin.itch.io/what-friends-are-for">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078823"><img
-            src="https://img.itch.zone/aW1nLzEyMjI5MTU0LnBuZw==/300x240%23c/YNiFVc.png" alt="2 Friendly"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078823">2 Friendly</a>
-        </h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078823"><img src="https://img.itch.zone/aW1nLzEyMjI5MTU0LnBuZw==/300x240%23c/YNiFVc.png" alt="2 Friendly"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2078823">2 Friendly</a></h3>
         <div class="game-authors">by <a href="https://isacben.itch.io">isacben</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2078823" name="game2078823">
-          <label for="game2078823">played</label>
+            <input  id="game2078823" name="game2078823" type="checkbox" class="played">
+            <label for="game2078823">played</label>
+            <input  id="fav2078823" name="fav2078823" type="checkbox" class="favorite">
+            <label for="fav2078823">favorite</label>
         </div>
         <div class="game-link"><a href="https://isacben.itch.io/2friendly">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075364"><img
-            src="https://img.itch.zone/aW1nLzEyMjA2NzcyLnBuZw==/300x240%23c/MAcqU7.png" alt="Micro Friendly"></a>
-      </div>
-      <div class="game-info">
-        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075364">Micro
-            Friendly</a></h3>
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075364"><img src="https://img.itch.zone/aW1nLzEyMjA2NzcyLnBuZw==/300x240%23c/MAcqU7.png" alt="Micro Friendly"></a>
+    </div>
+    <div class="game-info">
+        <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2075364">Micro Friendly</a></h3>
         <div class="game-authors">by <a href="https://myths-ai.itch.io">MYTH'S</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2075364" name="game2075364">
-          <label for="game2075364">played</label>
+            <input  id="game2075364" name="game2075364" type="checkbox" class="played">
+            <label for="game2075364">played</label>
+            <input  id="fav2075364" name="fav2075364" type="checkbox" class="favorite">
+            <label for="fav2075364">favorite</label>
         </div>
         <div class="game-link"><a href="https://myths-ai.itch.io/micro-friendly">PLAY</a></div>
-      </div>
     </div>
-    <div class="game-entry">
-      <div class="game-thumbnail">
-        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2071836"><img
-            src="https://img.itch.zone/aW1nLzEyMjIwNDY5LnBuZw==/300x240%23c/DAjP3J.png" alt="Goose-A-Gotchi"></a>
-      </div>
-      <div class="game-info">
+</div>
+<div class="game-entry">
+    <div class="game-thumbnail">
+        <a href="https://itch.io/jam/game-boy-showdown-2023/rate/2071836"><img src="https://img.itch.zone/aW1nLzEyMjIwNDY5LnBuZw==/300x240%23c/DAjP3J.png" alt="Goose-A-Gotchi"></a>
+    </div>
+    <div class="game-info">
         <h3 class="game-title"><a href="https://itch.io/jam/game-boy-showdown-2023/rate/2071836">Goose-A-Gotchi</a></h3>
-        <div class="game-authors">by <a href="https://kxaxcy.itch.io">Kotzwinkle</a>, <a
-            href="https://gottderfrucht.itch.io">GottderFrucht</a>, <a href="https://swyka.itch.io">Swyka</a>.</div>
+        <div class="game-authors">by <a href="https://kxaxcy.itch.io">Kotzwinkle</a>, <a href="https://gottderfrucht.itch.io">GottderFrucht</a>, <a href="https://swyka.itch.io">Swyka</a>.</div>
         <div class="check-list">
-          <input type="checkbox" id="game2071836" name="game2071836">
-          <label for="game2071836">played</label>
+            <input  id="game2071836" name="game2071836" type="checkbox" class="played">
+            <label for="game2071836">played</label>
+            <input  id="fav2071836" name="fav2071836" type="checkbox" class="favorite">
+            <label for="fav2071836">favorite</label>
         </div>
         <div class="game-link"><a href="https://kxaxcy.itch.io/goose-a-gotchi">PLAY</a></div>
-      </div>
     </div>
+</div>
 
   </div>
-  <div class="footer">generated at 2023/05/23 21:15:10 by <a href="https://rodrigocard.itch.io/">Rodrigo Rocha</a>
+  <div class="footer">generated at 2023/05/24 00:54:22 by <a href="https://rodrigocard.itch.io/">Rodrigo Rocha</a>
   </div>
 
   <script> /* save all checkboxes locally */
@@ -1421,6 +1390,7 @@
     var playCountSpan = document.getElementById('playcount');
     var dropdown = document.getElementById('filter-played');
     var textbox = document.getElementById('name-filter');
+    var favoriteCheckBox = document.getElementById('favorites-toggle');
     var matchesElement = document.getElementById('matches');
 
     // Save the state of checkboxes to local storage
@@ -1450,18 +1420,22 @@
     function applyFilters() {
       var filterValue = dropdown.value;
       var filterText = textbox.value.toLowerCase();
+      var filterFavorites = favoriteCheckBox.checked;
 
       gameEntryElements.forEach(function (gameEntry) {
-        var checkbox = gameEntry.querySelector('input[type="checkbox"]');
+        var checkboxPlayed = gameEntry.querySelector('input[type="checkbox"].played');
+        var checkboxFavorite = gameEntry.querySelector('input[type="checkbox"].favorite');
         var title = gameEntry.querySelector('.game-title').textContent.toLowerCase();
 
-        var checkboxCondition = (filterValue === 'all') ||
-          (filterValue === 'not-played' && !checkbox.checked) ||
-          (filterValue === 'played' && checkbox.checked);
+        var checkboxPlayedCondition = (filterValue === 'all') ||
+          (filterValue === 'not-played' && !checkboxPlayed.checked) ||
+          (filterValue === 'played' && checkboxPlayed.checked);
+
+        var checkboxFavoriteCondition = (filterFavorites && checkboxFavorite.checked) ||  (!filterFavorites);
 
         var textCondition = title.includes(filterText);
 
-        gameEntry.style.display = (checkboxCondition && textCondition) ? '' : 'none';
+        gameEntry.style.display = (checkboxPlayedCondition && checkboxFavoriteCondition && textCondition) ? '' : 'none';
       });
 
       updateMatches();
